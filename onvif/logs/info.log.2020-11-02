@@ -1,0 +1,21 @@
+15:36:06  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+15:36:06  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+15:36:06  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+15:36:07  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 16352 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+15:36:07  INFO (SpringApplication:655) [main] The following profiles are active: dev
+15:36:08  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+15:36:08  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+15:36:08  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+15:36:09  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+15:36:09  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+15:36:09  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f9fb6e9df4e44072237c757', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1367}] to 192.168.249.48:27017
+15:36:09  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f9fb6e9df4e44072237c757', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3501900}
+15:36:09  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+15:36:09  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+15:36:09  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+15:36:09  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+15:36:09  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.194 seconds (JVM running for 4.076)
+15:36:09  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+

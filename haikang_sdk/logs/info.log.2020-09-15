@@ -1,0 +1,361 @@
+08:31:05  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 12772 (started by tszar in C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk)
+08:31:05  INFO (SpringApplication:655) [main] The following profiles are active: dev
+08:31:06  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+08:31:07  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f600b4a908ec66e95f19597', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:439}] to 192.168.249.48:27017
+08:31:07  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f600b4a908ec66e95f19597', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2660400}
+08:31:07  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:31:07  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:31:07  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.604 seconds (JVM running for 3.871)
+08:31:08  INFO (CameraInfoService:30) [main] Test is 044ded39f8e249a980441919902c793f
+08:31:08  INFO (SLF4JLogger:71) [main] Opened connection [connectionId{localValue:2, serverValue:440}] to 192.168.249.48:27017
+08:31:08  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:440}] to 192.168.249.48:27017 because the pool has been closed.
+08:44:26  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+08:44:26  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+08:44:26  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+08:44:27  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 4996 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+08:44:27  INFO (SpringApplication:655) [main] The following profiles are active: dev
+08:44:28  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+08:44:28  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+08:44:28  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+08:44:29  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+08:44:29  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+08:44:29  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f600e6d64087a6bf18fb864', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:443}] to 192.168.249.48:27017
+08:44:29  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f600e6d64087a6bf18fb864', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2664500}
+08:44:29  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:44:29  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:44:29  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+08:44:29  INFO (StartupInfoLogger:61) [main] Started Application in 2.978 seconds (JVM running for 3.771)
+08:44:29  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+08:46:26  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:46:26  INFO (CameraInfoService:30) [http-nio-8001-exec-1] Test is defd906c4b9845509235f342eb6e44ef
+08:46:26 ERROR (DirectJDKLog:175) [http-nio-8001-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at regis.haikang.video.CameraInfoService.modify(CameraInfoService.java:34) ~[classes/:na]
+	at regis.haikang.web.ControlWeb.modifyDataProperty(ControlWeb.java:195) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+08:46:26  WARN (DispatcherServlet:1251) [http-nio-8001-exec-2] No mapping for GET /favicon.ico
+08:48:01  INFO (ArtemisHttpUtil:826) [http-nio-8001-exec-4] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0","msg":"success","data":{"cameraIndexCode":"00dfbb23d17847e2979cdfd4aa92dfa3","channelName":"研发中心","isShowChanName":1,"channelNameXPos":456,"channelNameYPos":496,"hourOSDType":0,"isShowOSD":1,"osdXPos":16,"osdYPos":16,"osdType":1,"osdAttrib":2,"isShowWeek":0}}
+08:52:21  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 14436 (started by tszar in C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk)
+08:52:21  INFO (SpringApplication:655) [main] The following profiles are active: dev
+08:52:22  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+08:52:23  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60104670cc03206052af85', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:444}] to 192.168.249.48:27017
+08:52:23  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60104670cc03206052af85', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2976400}
+08:52:23  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:52:23  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:52:23  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.424 seconds (JVM running for 3.42)
+08:52:24  INFO (CameraInfoService:30) [main] Test is 044ded39f8e249a980441919902c793f
+08:53:35  INFO (CameraInfoService:30) [http-nio-8001-exec-7] Test is defd906c4b9845509235f342eb6e44ef
+08:53:35 ERROR (DirectJDKLog:175) [http-nio-8001-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at regis.haikang.video.CameraInfoService.modify(CameraInfoService.java:34) ~[classes/:na]
+	at regis.haikang.web.ControlWeb.modifyDataProperty(ControlWeb.java:195) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+08:53:53  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+08:53:54  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+08:53:54  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+08:53:54  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 14256 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+08:53:54  INFO (SpringApplication:655) [main] The following profiles are active: dev
+08:53:55  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+08:53:55  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+08:53:55  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+08:53:56  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+08:53:56  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+08:53:56  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6010a49ed619715507b184', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:445}] to 192.168.249.48:27017
+08:53:56  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6010a49ed619715507b184', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2952300}
+08:53:56  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:53:56  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:53:56  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+08:53:56  INFO (StartupInfoLogger:61) [main] Started Application in 2.428 seconds (JVM running for 3.141)
+08:53:56  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+08:53:59  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:53:59  INFO (CameraInfoService:30) [http-nio-8001-exec-1] Test is defd906c4b9845509235f342eb6e44ef
+08:54:00  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:446}] to 192.168.249.48:27017
+10:04:08  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:04:08  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:04:08  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:04:09  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 15076 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:04:09  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:04:10  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:04:10  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:04:10  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:04:10  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:04:11  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:04:11  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60211b3666c22e037736d0', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:449}] to 192.168.249.48:27017
+10:04:11  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60211b3666c22e037736d0', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2693300}
+10:04:11  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:04:11  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:04:11  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:04:11  INFO (StartupInfoLogger:61) [main] Started Application in 2.546 seconds (JVM running for 3.297)
+10:04:11  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:04:16  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:04:52  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:04:52  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:04:52  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:04:52  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 8740 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:04:52  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:04:54  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:04:54  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:04:54  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:04:54  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:04:54  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:04:54  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f602146e8d3dd2188dab1d5', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:450}] to 192.168.249.48:27017
+10:04:54  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f602146e8d3dd2188dab1d5', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2657300}
+10:04:54  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:04:54  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:04:54  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:04:54  INFO (StartupInfoLogger:61) [main] Started Application in 2.549 seconds (JVM running for 3.265)
+10:04:54  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:04:57  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:04:57  INFO (CameraInfoService:66) [http-nio-8001-exec-1] research is null
+10:04:57  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:451}] to 192.168.249.48:27017
+10:06:33  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:06:33  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:06:33  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:06:34  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 12616 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:06:34  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:06:35  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:06:35  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:06:35  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:06:35  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:06:35  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:06:35  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6021ab0eddcd5d6ef664c9', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:452}] to 192.168.249.48:27017
+10:06:35  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6021ab0eddcd5d6ef664c9', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2776500}
+10:06:35  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:06:35  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:06:36  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:06:36  INFO (StartupInfoLogger:61) [main] Started Application in 2.438 seconds (JVM running for 3.164)
+10:06:36  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:06:37  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:06:37  INFO (CameraInfoService:66) [http-nio-8001-exec-1] research is null
+10:06:38  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:453}] to 192.168.249.48:27017
+10:06:38  INFO (ControlWeb:208) [http-nio-8001-exec-1] 查询到的信息是
+10:07:11  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:07:11  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:07:11  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:07:11  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 10540 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:07:11  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:07:13  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:07:13  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:07:13  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:07:13  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:07:13  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:07:13  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6021d12a613108df03cb2f', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:454}] to 192.168.249.48:27017
+10:07:13  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6021d12a613108df03cb2f', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2854600}
+10:07:13  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:07:13  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:07:13  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:07:13  INFO (StartupInfoLogger:61) [main] Started Application in 2.604 seconds (JVM running for 3.333)
+10:07:13  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:07:16  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:07:16  INFO (CameraInfoService:66) [http-nio-8001-exec-1] research is null
+10:07:16  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:455}] to 192.168.249.48:27017
+10:07:16  INFO (ControlWeb:208) [http-nio-8001-exec-1] 查询到的信息是
+10:07:26  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:07:26  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:07:26  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:07:27  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 2400 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:07:27  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:07:28  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:07:28  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:07:28  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:07:28  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:07:28  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:07:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6021e037e3bf49ad89586b', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:456}] to 192.168.249.48:27017
+10:07:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6021e037e3bf49ad89586b', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2677900}
+10:07:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:07:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:07:29  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:07:29  INFO (StartupInfoLogger:61) [main] Started Application in 2.832 seconds (JVM running for 4.41)
+10:07:29  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:07:32  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:07:32  INFO (CameraInfoService:66) [http-nio-8001-exec-1] research is null
+10:07:33  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:457}] to 192.168.249.48:27017
+10:08:41  INFO (CameraInfoService:66) [http-nio-8001-exec-2] research is null
+10:08:41  INFO (ControlWeb:208) [http-nio-8001-exec-1] 查询到的信息是
+10:08:41  INFO (ControlWeb:208) [http-nio-8001-exec-2] 查询到的信息是
+10:08:42  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:457}] to 192.168.249.48:27017 because the pool has been closed.
+10:08:44  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:08:44  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:08:44  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:08:44  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 3340 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:08:44  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:08:46  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:08:46  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:08:46  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:08:46  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:08:46  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:08:46  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60222e2827ef1655c56b01', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:458}] to 192.168.249.48:27017
+10:08:46  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60222e2827ef1655c56b01', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2906300}
+10:08:46  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:08:46  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:08:47  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:08:47  INFO (StartupInfoLogger:61) [main] Started Application in 2.85 seconds (JVM running for 3.743)
+10:08:47  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:08:47  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:08:47  INFO (CameraInfoService:66) [http-nio-8001-exec-1] research is null
+10:09:23  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:459}] to 192.168.249.48:27017
+10:10:55  INFO (ControlWeb:208) [http-nio-8001-exec-1] 查询到的信息是
+10:10:55  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:459}] to 192.168.249.48:27017 because the pool has been closed.
+10:12:28  INFO (MyScript:178) [main] ********Welcome Use This Library (writen by King)**********
+
+10:12:28  INFO (MyScript:93) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:12:28  INFO (MyScript:404) [main] C:\Users\tszar\Desktop\code\sdk_control
+10:12:28  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 208 (C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\code\sdk_control)
+10:12:28  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:12:30  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+10:12:30  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:12:30  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:12:30  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:12:30  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:12:30  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60230efafe051d88b9bef8', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:460}] to 192.168.249.48:27017
+10:12:30  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f60230efafe051d88b9bef8', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2692100}
+10:12:30  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:12:30  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:12:31  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+10:12:31  INFO (StartupInfoLogger:61) [main] Started Application in 2.732 seconds (JVM running for 3.645)
+10:12:31  INFO (Application:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:12:33  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:12:33  INFO (CameraInfoService:68) [http-nio-8001-exec-1] research is null
+10:59:29  INFO (ControlWeb:208) [http-nio-8001-exec-1] 查询到的信息是
+15:55:16  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 12848 (started by tszar in C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk)
+15:55:16  INFO (SpringApplication:655) [main] The following profiles are active: dev
+15:55:17  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+15:55:17  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6073659ff95b60e1408161', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:461}] to 192.168.249.48:27017
+15:55:17  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f6073659ff95b60e1408161', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2885500}
+15:55:17  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+15:55:17  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+15:55:18  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.436 seconds (JVM running for 3.467)
+15:57:54  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 15280 (started by tszar in C:\Users\tszar\Desktop\code\sdk_control\haikang_sdk)
+15:57:54  INFO (SpringApplication:655) [main] The following profiles are active: dev
+15:57:55  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+15:57:55  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f607403c5315720d9d2af03', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:464}] to 192.168.249.48:27017
+15:57:55  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f607403c5315720d9d2af03', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2751400}
+15:57:55  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+15:57:55  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+15:57:56  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.575 seconds (JVM running for 3.525)
+15:57:56  INFO (SLF4JLogger:71) [main] Opened connection [connectionId{localValue:2, serverValue:465}] to 192.168.249.48:27017
+15:57:56  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:465}] to 192.168.249.48:27017 because the pool has been closed.

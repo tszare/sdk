@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+
+  <appender name="fileAppenderInfo" class="org.apache.log4j.DailyRollingFileAppender">
+    <param name="File" value="${CURR_LOG_PATH}/info.log" />      
+    <param name="DatePattern" value=".dd" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{HH:mm:ss} %-5p (%c{1}:%L) [%t] %m%n"/>
+    </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+      <param name="LevelMin" value="INFO" />
+    </filter>
+  </appender>
+
+  <appender name="log4jTerminal" class="org.apache.log4j.ConsoleAppender">
+    <param name="Threshold" value="INFO" />
+    <param name="Target" value="System.out" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{HH:mm:ss} (%c{1}:%L) [%t] %m%n" />
+    </layout>
+  </appender>
+
+
+
+  <root>
+    <level value="ALL"/>
+    <appender-ref ref="fileAppenderInfo" />
+    <appender-ref ref="log4jTerminal" />    
+  </root>
+</log4j:configuration>

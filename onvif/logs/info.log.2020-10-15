@@ -1,0 +1,1507 @@
+14:02:37  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:02:37  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:02:37  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:02:38  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 3364 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:02:38  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:02:41  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:02:41  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:02:41  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:02:41  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:02:41  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:02:41  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e6016ab9f40330622a46', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:774}] to 192.168.249.48:27017
+14:02:41  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e6016ab9f40330622a46', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6566000}
+14:02:41  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:02:41  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:02:42  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:02:42  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 4.648 seconds (JVM running for 6.666)
+14:02:42  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:05:57  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:05:57  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:05:57  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:05:58  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 17868 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:05:58  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:06:00  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:06:00  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:06:00  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:06:00  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:06:00  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:06:00  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e6c874bd8a3f6e21a018', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:775}] to 192.168.249.48:27017
+14:06:00  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e6c874bd8a3f6e21a018', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3205700}
+14:06:00  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:06:00  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:06:01  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:06:01  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.389 seconds (JVM running for 4.276)
+14:06:01  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:07:27  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:07:28  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:07:28  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:07:28  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 19184 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:07:28  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:07:30  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:07:30  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:07:30  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:07:30  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:07:30  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:07:30  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e722b1f55931315ac15b', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:776}] to 192.168.249.48:27017
+14:07:30  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e722b1f55931315ac15b', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3207600}
+14:07:30  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:07:30  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:07:31  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:07:31  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 2.963 seconds (JVM running for 3.832)
+14:07:31  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:08:06  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:08:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:08:09  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:08:11  WARN (LogUtils:475) [http-nio-8003-exec-1] Interceptor for {http://www.onvif.org/ver10/device/wsdl}DeviceService#{http://www.onvif.org/ver10/device/wsdl}GetCapabilities has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:67)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:531)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:440)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:355)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:313)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:140)
+	at com.sun.proxy.$Proxy148.getCapabilities(Unknown Source)
+	at de.onvif.soap.OnvifDevice.init(OnvifDevice.java:142)
+	at de.onvif.soap.OnvifDevice.<init>(OnvifDevice.java:93)
+	at de.onvif.soap.OnvifDevice.<init>(OnvifDevice.java:109)
+	at de.onvif.api.API.saveOnvifData(API.java:699)
+	at de.onvif.web.ControlWeb.webSaveOnvifData(ControlWeb.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: UnknownHostException invoking http://q/onvif/device_service: q
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1400)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1384)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:671)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:63)
+	... 63 common frames omitted
+Caused by: java.net.UnknownHostException: q
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:274)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1304)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:307)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1356)
+	... 66 common frames omitted
+14:08:11 ERROR (DirectJDKLog:175) [http-nio-8003-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.xml.ws.WebServiceException: Could not send Message.] with root cause
+java.net.UnknownHostException: q
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:274)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1304)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:307)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1356)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:671)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:63)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:531)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:440)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:355)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:313)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:140)
+	at com.sun.proxy.$Proxy148.getCapabilities(Unknown Source)
+	at de.onvif.soap.OnvifDevice.init(OnvifDevice.java:142)
+	at de.onvif.soap.OnvifDevice.<init>(OnvifDevice.java:93)
+	at de.onvif.soap.OnvifDevice.<init>(OnvifDevice.java:109)
+	at de.onvif.api.API.saveOnvifData(API.java:699)
+	at de.onvif.web.ControlWeb.webSaveOnvifData(ControlWeb.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14:09:25  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:09:25  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:09:27  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:09:27  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:09:27  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:09:28  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:09:28  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:09:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:09:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:09:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:09:29  INFO (API:712) [http-nio-8003-exec-3] {SysUpTime = 185502 days 13:34:51} {Timestamp = Thu Oct 15 14:09:29 CST 2020}
+14:10:22  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:10:22  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:10:22  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:10:23  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 22784 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:10:23  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:10:24  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:10:24  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:10:24  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:10:24  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:10:25  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:10:25  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e7d1cb4df10a1bccb952', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:777}] to 192.168.249.48:27017
+14:10:25  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e7d1cb4df10a1bccb952', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3013600}
+14:10:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:10:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:10:25  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:10:25  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.113 seconds (JVM running for 4.122)
+14:10:25  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:10:27  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:10:27  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:10:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:10:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:10:30  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:10:30  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:10:30  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:10:30  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:10:31  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:10:31  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:10:31  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:10:31  INFO (API:713) [http-nio-8003-exec-2] 83 days 6:25:1
+14:12:59  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:12:59  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:12:59  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:13:00  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 18464 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:13:00  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:13:01  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:13:01  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:13:01  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:13:01  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:13:02  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:13:02  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e86e52eaf07917f6336b', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:778}] to 192.168.249.48:27017
+14:13:02  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e86e52eaf07917f6336b', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3088900}
+14:13:02  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:13:02  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:13:02  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:13:02  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.031 seconds (JVM running for 3.931)
+14:13:02  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:13:05  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:13:05  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:13:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:13:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:13:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:13:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:13:09  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:13:09  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:13:09  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:13:09  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:13:09  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:13:09  INFO (API:713) [http-nio-8003-exec-2] 1602742389971
+14:14:52  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 7944 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:14:52  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:14:53  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:14:53  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e8dd757b4542667596b1', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:779}] to 192.168.249.48:27017
+14:14:53  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e8dd757b4542667596b1', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3047800}
+14:14:53  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:14:53  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:14:54  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.912 seconds (JVM running for 4.3)
+14:14:55  INFO (ApplicationTests:78) [main] 1602742495305
+14:16:11  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 9528 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:16:11  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:16:12  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:16:12  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e92c160c5b152e609e2a', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:780}] to 192.168.249.48:27017
+14:16:12  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e92c160c5b152e609e2a', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3805000}
+14:16:12  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:16:12  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:16:13  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 3.268 seconds (JVM running for 4.805)
+14:18:53  INFO (ApplicationTests:78) [main] 1602742574133
+14:18:56  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 23316 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:18:56  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:18:58  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:18:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e9d2900f2228acda0afe', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:781}] to 192.168.249.48:27017
+14:18:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e9d2900f2228acda0afe', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3782100}
+14:18:58  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:18:58  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:18:59  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 3.22 seconds (JVM running for 4.719)
+14:19:29  INFO (ApplicationTests:78) [main] 1602742739516
+14:19:32  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 20520 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:19:32  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:19:34  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:19:34  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e9f648ce4768ba90ff99', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:782}] to 192.168.249.48:27017
+14:19:34  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87e9f648ce4768ba90ff99', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3725500}
+14:19:34  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:19:34  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:19:35  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 3.231 seconds (JVM running for 4.736)
+14:24:10  INFO (ApplicationTests:78) [main] 1602742775783
+14:26:12  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 22640 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:26:12  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:26:14  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:26:14  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87eb863595332b217e2fe9', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:783}] to 192.168.249.48:27017
+14:26:14  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87eb863595332b217e2fe9', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3629600}
+14:26:14  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:26:14  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:26:15  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.867 seconds (JVM running for 4.079)
+14:26:15  INFO (ApplicationTests:79) [main] 1602743175390
+14:34:29  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 19612 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:34:29  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:34:30  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:34:30  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ed76012a4e241e8b8d38', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:784}] to 192.168.249.48:27017
+14:34:30  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ed76012a4e241e8b8d38', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3649600}
+14:34:30  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:34:30  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:34:31  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.839 seconds (JVM running for 3.983)
+14:34:31  INFO (ApplicationTests:83) [main] 1466
+14:34:31  INFO (ApplicationTests:83) [main] 5043
+14:34:31  INFO (ApplicationTests:83) [main] 1575
+14:34:31  INFO (ApplicationTests:83) [main] 1183
+14:34:31  INFO (ApplicationTests:83) [main] 3337
+14:34:31  INFO (ApplicationTests:83) [main] 2229
+14:34:31  INFO (ApplicationTests:83) [main] 2807
+14:34:31  INFO (ApplicationTests:83) [main] 7303
+14:34:31  INFO (ApplicationTests:83) [main] 6263
+14:34:31  INFO (ApplicationTests:83) [main] 5584
+14:34:31  INFO (ApplicationTests:83) [main] 1120
+14:34:31  INFO (ApplicationTests:83) [main] 8300
+14:34:31  INFO (ApplicationTests:83) [main] 1930
+14:34:31  INFO (ApplicationTests:83) [main] 189
+14:34:31  INFO (ApplicationTests:83) [main] 5454
+14:34:31  INFO (ApplicationTests:83) [main] 4367
+14:34:31  INFO (ApplicationTests:83) [main] 7797
+14:34:31  INFO (ApplicationTests:83) [main] 8140
+14:34:31  INFO (ApplicationTests:83) [main] 7590
+14:34:31  INFO (ApplicationTests:83) [main] 163
+14:34:31  INFO (ApplicationTests:83) [main] 8913
+14:34:31  INFO (ApplicationTests:83) [main] 4297
+14:34:31  INFO (ApplicationTests:83) [main] 451
+14:34:31  INFO (ApplicationTests:83) [main] 4978
+14:34:31  INFO (ApplicationTests:83) [main] 2246
+14:34:31  INFO (ApplicationTests:83) [main] 2014
+14:34:31  INFO (ApplicationTests:83) [main] 7079
+14:34:31  INFO (ApplicationTests:83) [main] 8998
+14:34:31  INFO (ApplicationTests:83) [main] 4025
+14:34:31  INFO (ApplicationTests:83) [main] 8661
+14:34:31  INFO (ApplicationTests:83) [main] 771
+14:34:31  INFO (ApplicationTests:83) [main] 3243
+14:34:31  INFO (ApplicationTests:83) [main] 7071
+14:34:31  INFO (ApplicationTests:83) [main] 8120
+14:34:31  INFO (ApplicationTests:83) [main] 7667
+14:34:31  INFO (ApplicationTests:83) [main] 7694
+14:34:31  INFO (ApplicationTests:83) [main] 9424
+14:34:31  INFO (ApplicationTests:83) [main] 2151
+14:34:31  INFO (ApplicationTests:83) [main] 5024
+14:34:31  INFO (ApplicationTests:83) [main] 1569
+14:34:31  INFO (ApplicationTests:83) [main] 1783
+14:34:31  INFO (ApplicationTests:83) [main] 6245
+14:34:31  INFO (ApplicationTests:83) [main] 7561
+14:34:31  INFO (ApplicationTests:83) [main] 5806
+14:34:31  INFO (ApplicationTests:83) [main] 7077
+14:34:31  INFO (ApplicationTests:83) [main] 3952
+14:34:31  INFO (ApplicationTests:83) [main] 6508
+14:34:31  INFO (ApplicationTests:83) [main] 9125
+14:34:31  INFO (ApplicationTests:83) [main] 3686
+14:34:31  INFO (ApplicationTests:83) [main] 5163
+14:34:31  INFO (ApplicationTests:83) [main] 1581
+14:34:31  INFO (ApplicationTests:83) [main] 148
+14:34:31  INFO (ApplicationTests:83) [main] 5547
+14:34:31  INFO (ApplicationTests:83) [main] 5850
+14:34:31  INFO (ApplicationTests:83) [main] 4137
+14:34:31  INFO (ApplicationTests:83) [main] 1490
+14:34:31  INFO (ApplicationTests:83) [main] 1382
+14:34:31  INFO (ApplicationTests:83) [main] 6057
+14:34:31  INFO (ApplicationTests:83) [main] 3669
+14:34:31  INFO (ApplicationTests:83) [main] 6521
+14:34:31  INFO (ApplicationTests:83) [main] 5285
+14:34:31  INFO (ApplicationTests:83) [main] 920
+14:34:31  INFO (ApplicationTests:83) [main] 1887
+14:34:31  INFO (ApplicationTests:83) [main] 3630
+14:34:31  INFO (ApplicationTests:83) [main] 4453
+14:34:31  INFO (ApplicationTests:83) [main] 5415
+14:34:31  INFO (ApplicationTests:83) [main] 5398
+14:34:31  INFO (ApplicationTests:83) [main] 9117
+14:34:31  INFO (ApplicationTests:83) [main] 5303
+14:34:31  INFO (ApplicationTests:83) [main] 4394
+14:34:31  INFO (ApplicationTests:83) [main] 3702
+14:34:31  INFO (ApplicationTests:83) [main] 7813
+14:34:31  INFO (ApplicationTests:83) [main] 3456
+14:34:31  INFO (ApplicationTests:83) [main] 5642
+14:34:31  INFO (ApplicationTests:83) [main] 7947
+14:34:31  INFO (ApplicationTests:83) [main] 5694
+14:34:31  INFO (ApplicationTests:83) [main] 5851
+14:34:31  INFO (ApplicationTests:83) [main] 1256
+14:34:31  INFO (ApplicationTests:83) [main] 311
+14:34:31  INFO (ApplicationTests:83) [main] 6179
+14:34:31  INFO (ApplicationTests:83) [main] 9577
+14:34:31  INFO (ApplicationTests:83) [main] 6206
+14:34:31  INFO (ApplicationTests:83) [main] 8190
+14:34:31  INFO (ApplicationTests:83) [main] 4335
+14:34:31  INFO (ApplicationTests:83) [main] 3497
+14:34:31  INFO (ApplicationTests:83) [main] 4484
+14:34:31  INFO (ApplicationTests:83) [main] 4622
+14:34:31  INFO (ApplicationTests:83) [main] 4984
+14:34:31  INFO (ApplicationTests:83) [main] 978
+14:34:31  INFO (ApplicationTests:83) [main] 9020
+14:34:31  INFO (ApplicationTests:83) [main] 397
+14:34:31  INFO (ApplicationTests:83) [main] 9539
+14:34:31  INFO (ApplicationTests:83) [main] 6109
+14:34:31  INFO (ApplicationTests:83) [main] 1995
+14:34:31  INFO (ApplicationTests:83) [main] 3034
+14:34:31  INFO (ApplicationTests:83) [main] 4402
+14:34:31  INFO (ApplicationTests:83) [main] 1935
+14:34:31  INFO (ApplicationTests:83) [main] 9028
+14:34:31  INFO (ApplicationTests:83) [main] 1989
+14:34:31  INFO (ApplicationTests:83) [main] 8257
+14:34:31  INFO (ApplicationTests:83) [main] 5716
+14:34:31  INFO (ApplicationTests:83) [main] 2290
+14:34:31  INFO (ApplicationTests:83) [main] 3003
+14:34:31  INFO (ApplicationTests:83) [main] 4185
+14:34:31  INFO (ApplicationTests:83) [main] 184
+14:34:31  INFO (ApplicationTests:83) [main] 2897
+14:34:31  INFO (ApplicationTests:83) [main] 1994
+14:34:31  INFO (ApplicationTests:83) [main] 4062
+14:34:31  INFO (ApplicationTests:83) [main] 1518
+14:34:31  INFO (ApplicationTests:83) [main] 9418
+14:34:31  INFO (ApplicationTests:83) [main] 9123
+14:34:31  INFO (ApplicationTests:83) [main] 4236
+14:34:31  INFO (ApplicationTests:83) [main] 3075
+14:34:31  INFO (ApplicationTests:83) [main] 2362
+14:34:31  INFO (ApplicationTests:83) [main] 9037
+14:34:31  INFO (ApplicationTests:83) [main] 2297
+14:34:31  INFO (ApplicationTests:83) [main] 6189
+14:34:31  INFO (ApplicationTests:83) [main] 6285
+14:34:31  INFO (ApplicationTests:83) [main] 9317
+14:34:31  INFO (ApplicationTests:83) [main] 4774
+14:34:31  INFO (ApplicationTests:83) [main] 5838
+14:34:31  INFO (ApplicationTests:83) [main] 5788
+14:34:31  INFO (ApplicationTests:83) [main] 9443
+14:34:31  INFO (ApplicationTests:83) [main] 9239
+14:34:31  INFO (ApplicationTests:83) [main] 5396
+14:34:31  INFO (ApplicationTests:83) [main] 9201
+14:34:31  INFO (ApplicationTests:83) [main] 7417
+14:34:31  INFO (ApplicationTests:83) [main] 3693
+14:34:31  INFO (ApplicationTests:83) [main] 498
+14:34:31  INFO (ApplicationTests:83) [main] 7634
+14:34:31  INFO (ApplicationTests:83) [main] 5893
+14:34:31  INFO (ApplicationTests:83) [main] 5789
+14:34:31  INFO (ApplicationTests:83) [main] 5929
+14:34:31  INFO (ApplicationTests:83) [main] 1970
+14:34:31  INFO (ApplicationTests:83) [main] 181
+14:34:31  INFO (ApplicationTests:83) [main] 6719
+14:34:31  INFO (ApplicationTests:83) [main] 9504
+14:34:31  INFO (ApplicationTests:83) [main] 3679
+14:34:31  INFO (ApplicationTests:83) [main] 3738
+14:34:31  INFO (ApplicationTests:83) [main] 9332
+14:34:31  INFO (ApplicationTests:83) [main] 884
+14:34:31  INFO (ApplicationTests:83) [main] 7257
+14:34:31  INFO (ApplicationTests:83) [main] 7604
+14:34:31  INFO (ApplicationTests:83) [main] 6420
+14:34:31  INFO (ApplicationTests:83) [main] 1304
+14:34:31  INFO (ApplicationTests:83) [main] 4657
+14:34:31  INFO (ApplicationTests:83) [main] 4765
+14:34:31  INFO (ApplicationTests:83) [main] 2340
+14:34:31  INFO (ApplicationTests:83) [main] 1597
+14:34:31  INFO (ApplicationTests:83) [main] 1033
+14:34:31  INFO (ApplicationTests:83) [main] 8931
+14:34:31  INFO (ApplicationTests:83) [main] 6577
+14:34:31  INFO (ApplicationTests:83) [main] 7164
+14:34:31  INFO (ApplicationTests:83) [main] 1549
+14:34:31  INFO (ApplicationTests:83) [main] 781
+14:34:31  INFO (ApplicationTests:83) [main] 491
+14:34:31  INFO (ApplicationTests:83) [main] 5936
+14:34:31  INFO (ApplicationTests:83) [main] 7358
+14:34:31  INFO (ApplicationTests:83) [main] 3118
+14:34:31  INFO (ApplicationTests:83) [main] 3793
+14:34:31  INFO (ApplicationTests:83) [main] 4690
+14:34:31  INFO (ApplicationTests:83) [main] 1639
+14:34:31  INFO (ApplicationTests:83) [main] 743
+14:34:31  INFO (ApplicationTests:83) [main] 2549
+14:34:31  INFO (ApplicationTests:83) [main] 6860
+14:34:31  INFO (ApplicationTests:83) [main] 2910
+14:34:31  INFO (ApplicationTests:83) [main] 4247
+14:34:31  INFO (ApplicationTests:83) [main] 5531
+14:34:31  INFO (ApplicationTests:83) [main] 3855
+14:34:31  INFO (ApplicationTests:83) [main] 8521
+14:34:31  INFO (ApplicationTests:83) [main] 6590
+14:34:31  INFO (ApplicationTests:83) [main] 3523
+14:34:31  INFO (ApplicationTests:83) [main] 8271
+14:34:31  INFO (ApplicationTests:83) [main] 985
+14:34:31  INFO (ApplicationTests:83) [main] 9487
+14:34:31  INFO (ApplicationTests:83) [main] 2273
+14:34:31  INFO (ApplicationTests:83) [main] 1275
+14:34:31  INFO (ApplicationTests:83) [main] 3640
+14:34:31  INFO (ApplicationTests:83) [main] 9812
+14:34:31  INFO (ApplicationTests:83) [main] 9845
+14:34:31  INFO (ApplicationTests:83) [main] 1211
+14:34:31  INFO (ApplicationTests:83) [main] 2411
+14:34:31  INFO (ApplicationTests:83) [main] 3899
+14:34:31  INFO (ApplicationTests:83) [main] 5612
+14:34:31  INFO (ApplicationTests:83) [main] 1603
+14:34:31  INFO (ApplicationTests:83) [main] 1300
+14:34:31  INFO (ApplicationTests:83) [main] 4701
+14:34:31  INFO (ApplicationTests:83) [main] 5171
+14:34:31  INFO (ApplicationTests:83) [main] 3684
+14:34:31  INFO (ApplicationTests:83) [main] 2854
+14:34:31  INFO (ApplicationTests:83) [main] 5391
+14:34:31  INFO (ApplicationTests:83) [main] 4050
+14:34:31  INFO (ApplicationTests:83) [main] 8034
+14:34:31  INFO (ApplicationTests:83) [main] 9749
+14:34:31  INFO (ApplicationTests:83) [main] 8162
+14:34:31  INFO (ApplicationTests:83) [main] 2013
+14:34:31  INFO (ApplicationTests:83) [main] 9840
+14:34:31  INFO (ApplicationTests:83) [main] 6714
+14:34:31  INFO (ApplicationTests:83) [main] 7382
+14:34:31  INFO (ApplicationTests:83) [main] 9154
+14:34:31  INFO (ApplicationTests:83) [main] 4070
+14:34:31  INFO (ApplicationTests:83) [main] 9025
+14:34:31  INFO (ApplicationTests:83) [main] 3387
+14:34:31  INFO (ApplicationTests:83) [main] 1136
+14:34:31  INFO (ApplicationTests:83) [main] 9205
+14:34:31  INFO (ApplicationTests:83) [main] 8319
+14:34:31  INFO (ApplicationTests:83) [main] 2695
+14:34:31  INFO (ApplicationTests:83) [main] 5045
+14:34:31  INFO (ApplicationTests:83) [main] 6737
+14:34:31  INFO (ApplicationTests:83) [main] 2115
+14:34:31  INFO (ApplicationTests:83) [main] 5044
+14:34:31  INFO (ApplicationTests:83) [main] 8593
+14:34:31  INFO (ApplicationTests:83) [main] 9581
+14:34:31  INFO (ApplicationTests:83) [main] 7239
+14:34:31  INFO (ApplicationTests:83) [main] 945
+14:34:31  INFO (ApplicationTests:83) [main] 6620
+14:34:31  INFO (ApplicationTests:83) [main] 8309
+14:34:31  INFO (ApplicationTests:83) [main] 851
+14:34:31  INFO (ApplicationTests:83) [main] 504
+14:34:31  INFO (ApplicationTests:83) [main] 2113
+14:34:31  INFO (ApplicationTests:83) [main] 5636
+14:34:31  INFO (ApplicationTests:83) [main] 1566
+14:34:31  INFO (ApplicationTests:83) [main] 6416
+14:34:31  INFO (ApplicationTests:83) [main] 7142
+14:34:31  INFO (ApplicationTests:83) [main] 7590
+14:34:31  INFO (ApplicationTests:83) [main] 3394
+14:34:31  INFO (ApplicationTests:83) [main] 2169
+14:34:31  INFO (ApplicationTests:83) [main] 5993
+14:34:31  INFO (ApplicationTests:83) [main] 8136
+14:34:31  INFO (ApplicationTests:83) [main] 555
+14:34:31  INFO (ApplicationTests:83) [main] 7636
+14:34:31  INFO (ApplicationTests:83) [main] 6824
+14:34:31  INFO (ApplicationTests:83) [main] 8316
+14:34:31  INFO (ApplicationTests:83) [main] 9068
+14:34:31  INFO (ApplicationTests:83) [main] 9045
+14:34:31  INFO (ApplicationTests:83) [main] 1101
+14:34:31  INFO (ApplicationTests:83) [main] 5224
+14:34:31  INFO (ApplicationTests:83) [main] 2766
+14:34:31  INFO (ApplicationTests:83) [main] 17
+14:34:31  INFO (ApplicationTests:83) [main] 8004
+14:34:31  INFO (ApplicationTests:83) [main] 3070
+14:34:31  INFO (ApplicationTests:83) [main] 7573
+14:34:31  INFO (ApplicationTests:83) [main] 8466
+14:34:31  INFO (ApplicationTests:83) [main] 7851
+14:34:31  INFO (ApplicationTests:83) [main] 7862
+14:34:31  INFO (ApplicationTests:83) [main] 4866
+14:34:31  INFO (ApplicationTests:83) [main] 9017
+14:34:31  INFO (ApplicationTests:83) [main] 6645
+14:34:31  INFO (ApplicationTests:83) [main] 6951
+14:34:31  INFO (ApplicationTests:83) [main] 4686
+14:34:31  INFO (ApplicationTests:83) [main] 2098
+14:34:31  INFO (ApplicationTests:83) [main] 2810
+14:34:31  INFO (ApplicationTests:83) [main] 9060
+14:34:31  INFO (ApplicationTests:83) [main] 314
+14:34:31  INFO (ApplicationTests:83) [main] 6931
+14:34:31  INFO (ApplicationTests:83) [main] 6207
+14:34:31  INFO (ApplicationTests:83) [main] 6531
+14:34:31  INFO (ApplicationTests:83) [main] 9856
+14:34:31  INFO (ApplicationTests:83) [main] 5967
+14:34:31  INFO (ApplicationTests:83) [main] 2285
+14:34:31  INFO (ApplicationTests:83) [main] 6106
+14:34:31  INFO (ApplicationTests:83) [main] 5205
+14:34:31  INFO (ApplicationTests:83) [main] 1671
+14:34:31  INFO (ApplicationTests:83) [main] 3377
+14:34:31  INFO (ApplicationTests:83) [main] 7314
+14:34:31  INFO (ApplicationTests:83) [main] 6590
+14:34:31  INFO (ApplicationTests:83) [main] 1984
+14:34:31  INFO (ApplicationTests:83) [main] 9039
+14:34:31  INFO (ApplicationTests:83) [main] 3806
+14:34:31  INFO (ApplicationTests:83) [main] 6139
+14:34:31  INFO (ApplicationTests:83) [main] 1872
+14:34:31  INFO (ApplicationTests:83) [main] 3204
+14:34:31  INFO (ApplicationTests:83) [main] 6772
+14:34:31  INFO (ApplicationTests:83) [main] 6020
+14:34:31  INFO (ApplicationTests:83) [main] 2721
+14:34:31  INFO (ApplicationTests:83) [main] 7175
+14:34:31  INFO (ApplicationTests:83) [main] 8617
+14:34:31  INFO (ApplicationTests:83) [main] 3007
+14:34:31  INFO (ApplicationTests:83) [main] 5352
+14:34:31  INFO (ApplicationTests:83) [main] 6618
+14:34:31  INFO (ApplicationTests:83) [main] 220
+14:34:31  INFO (ApplicationTests:83) [main] 8971
+14:34:31  INFO (ApplicationTests:83) [main] 7055
+14:34:31  INFO (ApplicationTests:83) [main] 1971
+14:34:31  INFO (ApplicationTests:83) [main] 5672
+14:34:31  INFO (ApplicationTests:83) [main] 7709
+14:34:31  INFO (ApplicationTests:83) [main] 4654
+14:34:31  INFO (ApplicationTests:83) [main] 9010
+14:34:31  INFO (ApplicationTests:83) [main] 4109
+14:34:31  INFO (ApplicationTests:83) [main] 5956
+14:34:31  INFO (ApplicationTests:83) [main] 2233
+14:34:31  INFO (ApplicationTests:83) [main] 942
+14:34:31  INFO (ApplicationTests:83) [main] 3465
+14:34:31  INFO (ApplicationTests:83) [main] 2315
+14:34:31  INFO (ApplicationTests:83) [main] 9603
+14:34:31  INFO (ApplicationTests:83) [main] 7632
+14:34:31  INFO (ApplicationTests:83) [main] 3247
+14:34:31  INFO (ApplicationTests:83) [main] 6858
+14:34:31  INFO (ApplicationTests:83) [main] 8032
+14:34:31  INFO (ApplicationTests:83) [main] 3403
+14:34:31  INFO (ApplicationTests:83) [main] 1433
+14:34:31  INFO (ApplicationTests:83) [main] 3817
+14:34:31  INFO (ApplicationTests:83) [main] 7463
+14:34:31  INFO (ApplicationTests:83) [main] 8439
+14:34:31  INFO (ApplicationTests:83) [main] 6650
+14:34:31  INFO (ApplicationTests:83) [main] 2787
+14:34:31  INFO (ApplicationTests:83) [main] 3495
+14:34:31  INFO (ApplicationTests:83) [main] 8601
+14:34:31  INFO (ApplicationTests:83) [main] 1244
+14:34:31  INFO (ApplicationTests:83) [main] 4562
+14:34:31  INFO (ApplicationTests:83) [main] 6321
+14:34:31  INFO (ApplicationTests:83) [main] 2880
+14:34:31  INFO (ApplicationTests:83) [main] 3624
+14:34:31  INFO (ApplicationTests:83) [main] 461
+14:34:31  INFO (ApplicationTests:83) [main] 6355
+14:34:31  INFO (ApplicationTests:83) [main] 303
+14:34:31  INFO (ApplicationTests:83) [main] 3525
+14:34:31  INFO (ApplicationTests:83) [main] 7595
+14:34:31  INFO (ApplicationTests:83) [main] 9972
+14:34:31  INFO (ApplicationTests:83) [main] 8498
+14:34:31  INFO (ApplicationTests:83) [main] 935
+14:34:31  INFO (ApplicationTests:83) [main] 3154
+14:34:31  INFO (ApplicationTests:83) [main] 5771
+14:34:31  INFO (ApplicationTests:83) [main] 2622
+14:34:31  INFO (ApplicationTests:83) [main] 4360
+14:34:31  INFO (ApplicationTests:83) [main] 753
+14:34:31  INFO (ApplicationTests:83) [main] 7306
+14:34:31  INFO (ApplicationTests:83) [main] 4330
+14:34:31  INFO (ApplicationTests:83) [main] 7653
+14:34:31  INFO (ApplicationTests:83) [main] 8086
+14:34:31  INFO (ApplicationTests:83) [main] 8632
+14:34:31  INFO (ApplicationTests:83) [main] 7460
+14:34:31  INFO (ApplicationTests:83) [main] 2463
+14:34:31  INFO (ApplicationTests:83) [main] 6605
+14:34:31  INFO (ApplicationTests:83) [main] 605
+14:34:31  INFO (ApplicationTests:83) [main] 9377
+14:34:31  INFO (ApplicationTests:83) [main] 5122
+14:34:31  INFO (ApplicationTests:83) [main] 5557
+14:34:31  INFO (ApplicationTests:83) [main] 2006
+14:34:31  INFO (ApplicationTests:83) [main] 3845
+14:34:31  INFO (ApplicationTests:83) [main] 3922
+14:34:31  INFO (ApplicationTests:83) [main] 7232
+14:34:31  INFO (ApplicationTests:83) [main] 9352
+14:34:31  INFO (ApplicationTests:83) [main] 5867
+14:34:31  INFO (ApplicationTests:83) [main] 5200
+14:34:31  INFO (ApplicationTests:83) [main] 568
+14:34:31  INFO (ApplicationTests:83) [main] 5569
+14:34:31  INFO (ApplicationTests:83) [main] 4738
+14:34:31  INFO (ApplicationTests:83) [main] 1133
+14:34:31  INFO (ApplicationTests:83) [main] 7289
+14:34:31  INFO (ApplicationTests:83) [main] 4650
+14:34:31  INFO (ApplicationTests:83) [main] 260
+14:34:31  INFO (ApplicationTests:83) [main] 1526
+14:34:31  INFO (ApplicationTests:83) [main] 3198
+14:34:31  INFO (ApplicationTests:83) [main] 2376
+14:34:31  INFO (ApplicationTests:83) [main] 5443
+14:34:31  INFO (ApplicationTests:83) [main] 621
+14:34:31  INFO (ApplicationTests:83) [main] 1372
+14:34:31  INFO (ApplicationTests:83) [main] 8002
+14:34:31  INFO (ApplicationTests:83) [main] 370
+14:34:31  INFO (ApplicationTests:83) [main] 5704
+14:34:31  INFO (ApplicationTests:83) [main] 8389
+14:34:31  INFO (ApplicationTests:83) [main] 5181
+14:34:31  INFO (ApplicationTests:83) [main] 9758
+14:34:31  INFO (ApplicationTests:83) [main] 323
+14:34:31  INFO (ApplicationTests:83) [main] 2506
+14:34:31  INFO (ApplicationTests:83) [main] 2163
+14:34:31  INFO (ApplicationTests:83) [main] 8936
+14:34:31  INFO (ApplicationTests:83) [main] 8400
+14:34:31  INFO (ApplicationTests:83) [main] 864
+14:34:31  INFO (ApplicationTests:83) [main] 4627
+14:34:31  INFO (ApplicationTests:83) [main] 9024
+14:34:31  INFO (ApplicationTests:83) [main] 5375
+14:34:31  INFO (ApplicationTests:83) [main] 5997
+14:34:31  INFO (ApplicationTests:83) [main] 3281
+14:34:31  INFO (ApplicationTests:83) [main] 9422
+14:34:31  INFO (ApplicationTests:83) [main] 7912
+14:34:31  INFO (ApplicationTests:83) [main] 1807
+14:34:31  INFO (ApplicationTests:83) [main] 9566
+14:34:31  INFO (ApplicationTests:83) [main] 880
+14:34:31  INFO (ApplicationTests:83) [main] 2965
+14:34:31  INFO (ApplicationTests:83) [main] 2186
+14:34:31  INFO (ApplicationTests:83) [main] 7122
+14:34:31  INFO (ApplicationTests:83) [main] 971
+14:34:31  INFO (ApplicationTests:83) [main] 7821
+14:34:31  INFO (ApplicationTests:83) [main] 7084
+14:34:31  INFO (ApplicationTests:83) [main] 1830
+14:34:31  INFO (ApplicationTests:83) [main] 4848
+14:34:31  INFO (ApplicationTests:83) [main] 3579
+14:34:31  INFO (ApplicationTests:83) [main] 8943
+14:34:31  INFO (ApplicationTests:83) [main] 2238
+14:34:31  INFO (ApplicationTests:83) [main] 5550
+14:34:31  INFO (ApplicationTests:83) [main] 7725
+14:34:31  INFO (ApplicationTests:83) [main] 3466
+14:34:31  INFO (ApplicationTests:83) [main] 9427
+14:34:31  INFO (ApplicationTests:83) [main] 3949
+14:34:31  INFO (ApplicationTests:83) [main] 9096
+14:34:31  INFO (ApplicationTests:83) [main] 7796
+14:34:31  INFO (ApplicationTests:83) [main] 2719
+14:34:31  INFO (ApplicationTests:83) [main] 1006
+14:34:31  INFO (ApplicationTests:83) [main] 1385
+14:34:31  INFO (ApplicationTests:83) [main] 4550
+14:34:31  INFO (ApplicationTests:83) [main] 4017
+14:34:31  INFO (ApplicationTests:83) [main] 7900
+14:34:31  INFO (ApplicationTests:83) [main] 2214
+14:34:31  INFO (ApplicationTests:83) [main] 2860
+14:34:31  INFO (ApplicationTests:83) [main] 6129
+14:34:31  INFO (ApplicationTests:83) [main] 1054
+14:34:31  INFO (ApplicationTests:83) [main] 5747
+14:34:31  INFO (ApplicationTests:83) [main] 1032
+14:34:31  INFO (ApplicationTests:83) [main] 1358
+14:34:31  INFO (ApplicationTests:83) [main] 3965
+14:34:31  INFO (ApplicationTests:83) [main] 6225
+14:34:31  INFO (ApplicationTests:83) [main] 1394
+14:34:31  INFO (ApplicationTests:83) [main] 6082
+14:34:31  INFO (ApplicationTests:83) [main] 5629
+14:34:31  INFO (ApplicationTests:83) [main] 1601
+14:34:31  INFO (ApplicationTests:83) [main] 9968
+14:34:31  INFO (ApplicationTests:83) [main] 3575
+14:34:31  INFO (ApplicationTests:83) [main] 2921
+14:34:31  INFO (ApplicationTests:83) [main] 3590
+14:34:31  INFO (ApplicationTests:83) [main] 6174
+14:34:31  INFO (ApplicationTests:83) [main] 2563
+14:34:31  INFO (ApplicationTests:83) [main] 2191
+14:34:31  INFO (ApplicationTests:83) [main] 7896
+14:34:31  INFO (ApplicationTests:83) [main] 7387
+14:34:31  INFO (ApplicationTests:83) [main] 9054
+14:34:31  INFO (ApplicationTests:83) [main] 8981
+14:34:31  INFO (ApplicationTests:83) [main] 7316
+14:34:31  INFO (ApplicationTests:83) [main] 9087
+14:34:31  INFO (ApplicationTests:83) [main] 5364
+14:34:31  INFO (ApplicationTests:83) [main] 6711
+14:34:31  INFO (ApplicationTests:83) [main] 7777
+14:34:31  INFO (ApplicationTests:83) [main] 7468
+14:34:31  INFO (ApplicationTests:83) [main] 1846
+14:34:31  INFO (ApplicationTests:83) [main] 9951
+14:34:31  INFO (ApplicationTests:83) [main] 8797
+14:34:31  INFO (ApplicationTests:83) [main] 8641
+14:34:31  INFO (ApplicationTests:83) [main] 4011
+14:34:31  INFO (ApplicationTests:83) [main] 111
+14:34:31  INFO (ApplicationTests:83) [main] 3318
+14:34:31  INFO (ApplicationTests:83) [main] 1525
+14:34:31  INFO (ApplicationTests:83) [main] 5412
+14:34:31  INFO (ApplicationTests:83) [main] 2733
+14:34:31  INFO (ApplicationTests:83) [main] 5349
+14:34:31  INFO (ApplicationTests:83) [main] 4326
+14:34:31  INFO (ApplicationTests:83) [main] 9837
+14:34:31  INFO (ApplicationTests:83) [main] 4700
+14:34:31  INFO (ApplicationTests:83) [main] 3413
+14:34:31  INFO (ApplicationTests:83) [main] 7502
+14:34:31  INFO (ApplicationTests:83) [main] 6528
+14:34:31  INFO (ApplicationTests:83) [main] 8019
+14:34:31  INFO (ApplicationTests:83) [main] 2722
+14:34:31  INFO (ApplicationTests:83) [main] 430
+14:34:31  INFO (ApplicationTests:83) [main] 4835
+14:34:31  INFO (ApplicationTests:83) [main] 92
+14:34:31  INFO (ApplicationTests:83) [main] 6684
+14:34:31  INFO (ApplicationTests:83) [main] 8554
+14:34:31  INFO (ApplicationTests:83) [main] 3105
+14:34:31  INFO (ApplicationTests:83) [main] 2299
+14:34:31  INFO (ApplicationTests:83) [main] 3210
+14:34:31  INFO (ApplicationTests:83) [main] 785
+14:34:31  INFO (ApplicationTests:83) [main] 9655
+14:34:31  INFO (ApplicationTests:83) [main] 3385
+14:34:31  INFO (ApplicationTests:83) [main] 8555
+14:34:31  INFO (ApplicationTests:83) [main] 2567
+14:34:31  INFO (ApplicationTests:83) [main] 7620
+14:34:31  INFO (ApplicationTests:83) [main] 3308
+14:34:31  INFO (ApplicationTests:83) [main] 5495
+14:34:31  INFO (ApplicationTests:83) [main] 6496
+14:34:31  INFO (ApplicationTests:83) [main] 7475
+14:34:31  INFO (ApplicationTests:83) [main] 9476
+14:34:31  INFO (ApplicationTests:83) [main] 9156
+14:34:31  INFO (ApplicationTests:83) [main] 5531
+14:34:31  INFO (ApplicationTests:83) [main] 7814
+14:34:31  INFO (ApplicationTests:83) [main] 6533
+14:34:31  INFO (ApplicationTests:83) [main] 6038
+14:34:31  INFO (ApplicationTests:83) [main] 5609
+14:34:31  INFO (ApplicationTests:83) [main] 6664
+14:34:31  INFO (ApplicationTests:83) [main] 9372
+14:34:31  INFO (ApplicationTests:83) [main] 7694
+14:34:31  INFO (ApplicationTests:83) [main] 4601
+14:34:31  INFO (ApplicationTests:83) [main] 9556
+14:34:31  INFO (ApplicationTests:83) [main] 3712
+14:34:31  INFO (ApplicationTests:83) [main] 6898
+14:34:31  INFO (ApplicationTests:83) [main] 7810
+14:34:31  INFO (ApplicationTests:83) [main] 580
+14:34:31  INFO (ApplicationTests:83) [main] 9543
+14:34:31  INFO (ApplicationTests:83) [main] 2221
+14:34:31  INFO (ApplicationTests:83) [main] 8908
+14:34:31  INFO (ApplicationTests:83) [main] 7058
+14:34:31  INFO (ApplicationTests:83) [main] 2466
+14:34:31  INFO (ApplicationTests:83) [main] 8381
+14:34:31  INFO (ApplicationTests:83) [main] 3787
+14:34:31  INFO (ApplicationTests:83) [main] 3002
+14:34:31  INFO (ApplicationTests:83) [main] 4181
+14:34:31  INFO (ApplicationTests:83) [main] 2971
+14:34:31  INFO (ApplicationTests:83) [main] 9785
+14:34:31  INFO (ApplicationTests:83) [main] 4512
+14:34:31  INFO (ApplicationTests:83) [main] 4407
+14:35:06  INFO (StartupInfoLogger:55) [main] Starting ApplicationTests on tszar with PID 3088 (started by tszar in C:\Users\tszar\Desktop\bf\sdk_control\onvif)
+14:35:06  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:35:07  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:35:08  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ed9b562ba706c3e18f0f', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:785}] to 192.168.249.48:27017
+14:35:08  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ed9b562ba706c3e18f0f', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3138800}
+14:35:08  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:35:08  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:35:09  INFO (StartupInfoLogger:61) [main] Started ApplicationTests in 2.91 seconds (JVM running for 4.065)
+14:35:09  INFO (ApplicationTests:83) [main] 6573
+14:35:09  INFO (ApplicationTests:83) [main] 1028
+14:35:09  INFO (ApplicationTests:83) [main] 210
+14:35:09  INFO (ApplicationTests:83) [main] 2195
+14:35:09  INFO (ApplicationTests:83) [main] 2318
+14:35:09  INFO (ApplicationTests:83) [main] 8063
+14:35:09  INFO (ApplicationTests:83) [main] 2285
+14:35:09  INFO (ApplicationTests:83) [main] 4981
+14:35:09  INFO (ApplicationTests:83) [main] 7511
+14:35:09  INFO (ApplicationTests:83) [main] 4744
+14:35:09  INFO (ApplicationTests:83) [main] 1396
+14:35:09  INFO (ApplicationTests:83) [main] 9773
+14:35:09  INFO (ApplicationTests:83) [main] 1732
+14:35:09  INFO (ApplicationTests:83) [main] 5552
+14:35:09  INFO (ApplicationTests:83) [main] 172
+14:35:09  INFO (ApplicationTests:83) [main] 4981
+14:35:09  INFO (ApplicationTests:83) [main] 4742
+14:35:09  INFO (ApplicationTests:83) [main] 9664
+14:35:09  INFO (ApplicationTests:83) [main] 6296
+14:35:09  INFO (ApplicationTests:83) [main] 1459
+14:35:09  INFO (ApplicationTests:83) [main] 7327
+14:35:09  INFO (ApplicationTests:83) [main] 7875
+14:35:09  INFO (ApplicationTests:83) [main] 6525
+14:35:09  INFO (ApplicationTests:83) [main] 4571
+14:35:09  INFO (ApplicationTests:83) [main] 265
+14:35:09  INFO (ApplicationTests:83) [main] 2285
+14:35:09  INFO (ApplicationTests:83) [main] 705
+14:35:09  INFO (ApplicationTests:83) [main] 5269
+14:35:09  INFO (ApplicationTests:83) [main] 838
+14:35:09  INFO (ApplicationTests:83) [main] 7963
+14:35:09  INFO (ApplicationTests:83) [main] 3985
+14:35:09  INFO (ApplicationTests:83) [main] 6918
+14:35:09  INFO (ApplicationTests:83) [main] 3730
+14:35:09  INFO (ApplicationTests:83) [main] 6632
+14:35:09  INFO (ApplicationTests:83) [main] 2466
+14:35:09  INFO (ApplicationTests:83) [main] 9134
+14:35:09  INFO (ApplicationTests:83) [main] 2357
+14:35:09  INFO (ApplicationTests:83) [main] 7978
+14:35:09  INFO (ApplicationTests:83) [main] 8367
+14:35:09  INFO (ApplicationTests:83) [main] 6077
+14:35:09  INFO (ApplicationTests:83) [main] 6885
+14:35:09  INFO (ApplicationTests:83) [main] 8151
+14:35:09  INFO (ApplicationTests:83) [main] 5089
+14:35:09  INFO (ApplicationTests:83) [main] 7730
+14:35:09  INFO (ApplicationTests:83) [main] 3033
+14:35:09  INFO (ApplicationTests:83) [main] 8551
+14:35:09  INFO (ApplicationTests:83) [main] 7885
+14:35:09  INFO (ApplicationTests:83) [main] 6466
+14:35:09  INFO (ApplicationTests:83) [main] 9336
+14:35:09  INFO (ApplicationTests:83) [main] 7623
+14:35:09  INFO (ApplicationTests:83) [main] 4390
+14:35:09  INFO (ApplicationTests:83) [main] 3265
+14:35:09  INFO (ApplicationTests:83) [main] 6767
+14:35:09  INFO (ApplicationTests:83) [main] 7623
+14:35:09  INFO (ApplicationTests:83) [main] 9636
+14:35:09  INFO (ApplicationTests:83) [main] 8992
+14:35:09  INFO (ApplicationTests:83) [main] 6673
+14:35:09  INFO (ApplicationTests:83) [main] 5729
+14:35:09  INFO (ApplicationTests:83) [main] 5773
+14:35:09  INFO (ApplicationTests:83) [main] 3284
+14:35:09  INFO (ApplicationTests:83) [main] 6729
+14:35:09  INFO (ApplicationTests:83) [main] 7158
+14:35:09  INFO (ApplicationTests:83) [main] 4735
+14:35:09  INFO (ApplicationTests:83) [main] 1231
+14:35:09  INFO (ApplicationTests:83) [main] 3259
+14:35:09  INFO (ApplicationTests:83) [main] 1079
+14:35:09  INFO (ApplicationTests:83) [main] 4719
+14:35:09  INFO (ApplicationTests:83) [main] 1517
+14:35:09  INFO (ApplicationTests:83) [main] 8600
+14:35:09  INFO (ApplicationTests:83) [main] 9053
+14:35:09  INFO (ApplicationTests:83) [main] 2636
+14:35:09  INFO (ApplicationTests:83) [main] 7564
+14:35:09  INFO (ApplicationTests:83) [main] 1680
+14:35:09  INFO (ApplicationTests:83) [main] 3941
+14:35:09  INFO (ApplicationTests:83) [main] 2301
+14:35:09  INFO (ApplicationTests:83) [main] 9673
+14:35:09  INFO (ApplicationTests:83) [main] 4898
+14:35:09  INFO (ApplicationTests:83) [main] 9772
+14:35:09  INFO (ApplicationTests:83) [main] 8041
+14:35:09  INFO (ApplicationTests:83) [main] 3827
+14:35:09  INFO (ApplicationTests:83) [main] 991
+14:35:09  INFO (ApplicationTests:83) [main] 3090
+14:35:09  INFO (ApplicationTests:83) [main] 6389
+14:35:09  INFO (ApplicationTests:83) [main] 8782
+14:35:09  INFO (ApplicationTests:83) [main] 9021
+14:35:09  INFO (ApplicationTests:83) [main] 6414
+14:35:09  INFO (ApplicationTests:83) [main] 9975
+14:35:09  INFO (ApplicationTests:83) [main] 5751
+14:35:09  INFO (ApplicationTests:83) [main] 4183
+14:35:09  INFO (ApplicationTests:83) [main] 3678
+14:35:09  INFO (ApplicationTests:83) [main] 6746
+14:35:09  INFO (ApplicationTests:83) [main] 6847
+14:35:09  INFO (ApplicationTests:83) [main] 3985
+14:35:09  INFO (ApplicationTests:83) [main] 521
+14:35:09  INFO (ApplicationTests:83) [main] 4010
+14:35:09  INFO (ApplicationTests:83) [main] 3382
+14:35:09  INFO (ApplicationTests:83) [main] 7562
+14:35:09  INFO (ApplicationTests:83) [main] 2164
+14:35:09  INFO (ApplicationTests:83) [main] 7071
+14:35:09  INFO (ApplicationTests:83) [main] 9253
+14:35:09  INFO (ApplicationTests:83) [main] 730
+14:35:09  INFO (ApplicationTests:83) [main] 7725
+14:35:09  INFO (ApplicationTests:83) [main] 3463
+14:35:09  INFO (ApplicationTests:83) [main] 3079
+14:35:09  INFO (ApplicationTests:83) [main] 139
+14:35:09  INFO (ApplicationTests:83) [main] 4567
+14:35:09  INFO (ApplicationTests:83) [main] 9404
+14:35:09  INFO (ApplicationTests:83) [main] 9045
+14:35:09  INFO (ApplicationTests:83) [main] 1748
+14:35:09  INFO (ApplicationTests:83) [main] 3218
+14:35:09  INFO (ApplicationTests:83) [main] 9013
+14:35:09  INFO (ApplicationTests:83) [main] 141
+14:35:09  INFO (ApplicationTests:83) [main] 7007
+14:35:09  INFO (ApplicationTests:83) [main] 1606
+14:35:09  INFO (ApplicationTests:83) [main] 1239
+14:35:09  INFO (ApplicationTests:83) [main] 7406
+14:35:09  INFO (ApplicationTests:83) [main] 4332
+14:35:09  INFO (ApplicationTests:83) [main] 6540
+14:35:09  INFO (ApplicationTests:83) [main] 6156
+14:35:09  INFO (ApplicationTests:83) [main] 1875
+14:35:09  INFO (ApplicationTests:83) [main] 7119
+14:35:09  INFO (ApplicationTests:83) [main] 1001
+14:35:09  INFO (ApplicationTests:83) [main] 364
+14:35:09  INFO (ApplicationTests:83) [main] 5145
+14:35:09  INFO (ApplicationTests:83) [main] 3829
+14:35:09  INFO (ApplicationTests:83) [main] 5912
+14:35:09  INFO (ApplicationTests:83) [main] 3848
+14:35:09  INFO (ApplicationTests:83) [main] 3263
+14:35:09  INFO (ApplicationTests:83) [main] 8196
+14:35:09  INFO (ApplicationTests:83) [main] 2339
+14:35:09  INFO (ApplicationTests:83) [main] 5222
+14:35:09  INFO (ApplicationTests:83) [main] 3753
+14:35:09  INFO (ApplicationTests:83) [main] 8992
+14:35:09  INFO (ApplicationTests:83) [main] 2750
+14:35:09  INFO (ApplicationTests:83) [main] 8086
+14:35:09  INFO (ApplicationTests:83) [main] 8257
+14:35:09  INFO (ApplicationTests:83) [main] 3865
+14:35:09  INFO (ApplicationTests:83) [main] 928
+14:35:09  INFO (ApplicationTests:83) [main] 4386
+14:35:09  INFO (ApplicationTests:83) [main] 3610
+14:35:09  INFO (ApplicationTests:83) [main] 4130
+14:35:09  INFO (ApplicationTests:83) [main] 6702
+14:35:09  INFO (ApplicationTests:83) [main] 7988
+14:35:09  INFO (ApplicationTests:83) [main] 9266
+14:35:09  INFO (ApplicationTests:83) [main] 1053
+14:35:09  INFO (ApplicationTests:83) [main] 2198
+14:35:09  INFO (ApplicationTests:83) [main] 7890
+14:35:09  INFO (ApplicationTests:83) [main] 2324
+14:35:09  INFO (ApplicationTests:83) [main] 4369
+14:35:09  INFO (ApplicationTests:83) [main] 7333
+14:35:09  INFO (ApplicationTests:83) [main] 9557
+14:35:09  INFO (ApplicationTests:83) [main] 4599
+14:35:09  INFO (ApplicationTests:83) [main] 8382
+14:35:09  INFO (ApplicationTests:83) [main] 4613
+14:35:09  INFO (ApplicationTests:83) [main] 1528
+14:35:09  INFO (ApplicationTests:83) [main] 9431
+14:35:09  INFO (ApplicationTests:83) [main] 599
+14:35:09  INFO (ApplicationTests:83) [main] 3831
+14:35:09  INFO (ApplicationTests:83) [main] 7851
+14:35:09  INFO (ApplicationTests:83) [main] 9390
+14:35:09  INFO (ApplicationTests:83) [main] 4237
+14:35:09  INFO (ApplicationTests:83) [main] 5401
+14:35:09  INFO (ApplicationTests:83) [main] 5254
+14:35:09  INFO (ApplicationTests:83) [main] 1198
+14:35:09  INFO (ApplicationTests:83) [main] 7021
+14:35:09  INFO (ApplicationTests:83) [main] 1380
+14:35:09  INFO (ApplicationTests:83) [main] 3547
+14:35:09  INFO (ApplicationTests:83) [main] 2398
+14:35:09  INFO (ApplicationTests:83) [main] 960
+14:35:09  INFO (ApplicationTests:83) [main] 3044
+14:35:09  INFO (ApplicationTests:83) [main] 2900
+14:35:09  INFO (ApplicationTests:83) [main] 1214
+14:35:09  INFO (ApplicationTests:83) [main] 1697
+14:35:09  INFO (ApplicationTests:83) [main] 5092
+14:35:09  INFO (ApplicationTests:83) [main] 8540
+14:35:09  INFO (ApplicationTests:83) [main] 4904
+14:35:09  INFO (ApplicationTests:83) [main] 9899
+14:35:09  INFO (ApplicationTests:83) [main] 886
+14:35:09  INFO (ApplicationTests:83) [main] 8826
+14:35:09  INFO (ApplicationTests:83) [main] 3253
+14:35:09  INFO (ApplicationTests:83) [main] 4112
+14:35:09  INFO (ApplicationTests:83) [main] 8861
+14:35:09  INFO (ApplicationTests:83) [main] 8327
+14:35:09  INFO (ApplicationTests:83) [main] 4937
+14:35:09  INFO (ApplicationTests:83) [main] 2262
+14:35:09  INFO (ApplicationTests:83) [main] 9735
+14:35:09  INFO (ApplicationTests:83) [main] 1232
+14:35:09  INFO (ApplicationTests:83) [main] 6957
+14:35:09  INFO (ApplicationTests:83) [main] 9563
+14:35:09  INFO (ApplicationTests:83) [main] 1290
+14:35:09  INFO (ApplicationTests:83) [main] 8728
+14:35:09  INFO (ApplicationTests:83) [main] 583
+14:35:09  INFO (ApplicationTests:83) [main] 5674
+14:35:09  INFO (ApplicationTests:83) [main] 6921
+14:35:09  INFO (ApplicationTests:83) [main] 8677
+14:35:09  INFO (ApplicationTests:83) [main] 1896
+14:35:09  INFO (ApplicationTests:83) [main] 1894
+14:35:09  INFO (ApplicationTests:83) [main] 562
+14:35:09  INFO (ApplicationTests:83) [main] 8266
+14:35:09  INFO (ApplicationTests:83) [main] 2290
+14:35:09  INFO (ApplicationTests:83) [main] 5987
+14:35:09  INFO (ApplicationTests:83) [main] 3640
+14:35:09  INFO (ApplicationTests:83) [main] 965
+14:35:09  INFO (ApplicationTests:83) [main] 9987
+14:35:09  INFO (ApplicationTests:83) [main] 6964
+14:35:09  INFO (ApplicationTests:83) [main] 4921
+14:35:09  INFO (ApplicationTests:83) [main] 6159
+14:35:09  INFO (ApplicationTests:83) [main] 8274
+14:35:09  INFO (ApplicationTests:83) [main] 9742
+14:35:09  INFO (ApplicationTests:83) [main] 3435
+14:35:09  INFO (ApplicationTests:83) [main] 2065
+14:35:09  INFO (ApplicationTests:83) [main] 4421
+14:35:09  INFO (ApplicationTests:83) [main] 9164
+14:35:09  INFO (ApplicationTests:83) [main] 7911
+14:35:09  INFO (ApplicationTests:83) [main] 3862
+14:35:09  INFO (ApplicationTests:83) [main] 1741
+14:35:09  INFO (ApplicationTests:83) [main] 540
+14:35:09  INFO (ApplicationTests:83) [main] 5250
+14:35:09  INFO (ApplicationTests:83) [main] 2203
+14:35:09  INFO (ApplicationTests:83) [main] 8382
+14:35:09  INFO (ApplicationTests:83) [main] 8567
+14:35:09  INFO (ApplicationTests:83) [main] 9972
+14:35:09  INFO (ApplicationTests:83) [main] 9042
+14:35:09  INFO (ApplicationTests:83) [main] 1391
+14:35:09  INFO (ApplicationTests:83) [main] 8925
+14:35:09  INFO (ApplicationTests:83) [main] 2951
+14:35:09  INFO (ApplicationTests:83) [main] 358
+14:35:09  INFO (ApplicationTests:83) [main] 1466
+14:35:09  INFO (ApplicationTests:83) [main] 7806
+14:35:09  INFO (ApplicationTests:83) [main] 8638
+14:35:09  INFO (ApplicationTests:83) [main] 2537
+14:35:09  INFO (ApplicationTests:83) [main] 1777
+14:35:09  INFO (ApplicationTests:83) [main] 8470
+14:35:09  INFO (ApplicationTests:83) [main] 9855
+14:35:09  INFO (ApplicationTests:83) [main] 2377
+14:35:09  INFO (ApplicationTests:83) [main] 5646
+14:35:09  INFO (ApplicationTests:83) [main] 992
+14:35:09  INFO (ApplicationTests:83) [main] 4063
+14:35:09  INFO (ApplicationTests:83) [main] 9810
+14:35:09  INFO (ApplicationTests:83) [main] 8820
+14:35:09  INFO (ApplicationTests:83) [main] 7451
+14:35:09  INFO (ApplicationTests:83) [main] 7288
+14:35:09  INFO (ApplicationTests:83) [main] 4141
+14:35:09  INFO (ApplicationTests:83) [main] 1511
+14:35:09  INFO (ApplicationTests:83) [main] 4906
+14:35:09  INFO (ApplicationTests:83) [main] 5513
+14:35:09  INFO (ApplicationTests:83) [main] 9701
+14:35:09  INFO (ApplicationTests:83) [main] 3237
+14:35:09  INFO (ApplicationTests:83) [main] 8020
+14:35:09  INFO (ApplicationTests:83) [main] 1882
+14:35:09  INFO (ApplicationTests:83) [main] 826
+14:35:09  INFO (ApplicationTests:83) [main] 3184
+14:35:09  INFO (ApplicationTests:83) [main] 6716
+14:35:09  INFO (ApplicationTests:83) [main] 7547
+14:35:09  INFO (ApplicationTests:83) [main] 9151
+14:35:09  INFO (ApplicationTests:83) [main] 761
+14:35:09  INFO (ApplicationTests:83) [main] 5628
+14:35:09  INFO (ApplicationTests:83) [main] 5176
+14:35:09  INFO (ApplicationTests:83) [main] 1181
+14:35:09  INFO (ApplicationTests:83) [main] 4474
+14:35:09  INFO (ApplicationTests:83) [main] 8858
+14:35:09  INFO (ApplicationTests:83) [main] 427
+14:35:09  INFO (ApplicationTests:83) [main] 5867
+14:35:09  INFO (ApplicationTests:83) [main] 7135
+14:35:09  INFO (ApplicationTests:83) [main] 1869
+14:35:09  INFO (ApplicationTests:83) [main] 2462
+14:35:09  INFO (ApplicationTests:83) [main] 4533
+14:35:09  INFO (ApplicationTests:83) [main] 7826
+14:35:09  INFO (ApplicationTests:83) [main] 5256
+14:35:09  INFO (ApplicationTests:83) [main] 4795
+14:35:09  INFO (ApplicationTests:83) [main] 1577
+14:35:09  INFO (ApplicationTests:83) [main] 8818
+14:35:09  INFO (ApplicationTests:83) [main] 9508
+14:35:09  INFO (ApplicationTests:83) [main] 7218
+14:35:09  INFO (ApplicationTests:83) [main] 7889
+14:35:09  INFO (ApplicationTests:83) [main] 3040
+14:35:09  INFO (ApplicationTests:83) [main] 9181
+14:35:09  INFO (ApplicationTests:83) [main] 2150
+14:35:09  INFO (ApplicationTests:83) [main] 5738
+14:35:09  INFO (ApplicationTests:83) [main] 7046
+14:35:09  INFO (ApplicationTests:83) [main] 5811
+14:35:09  INFO (ApplicationTests:83) [main] 5956
+14:35:09  INFO (ApplicationTests:83) [main] 435
+14:35:09  INFO (ApplicationTests:83) [main] 4068
+14:35:09  INFO (ApplicationTests:83) [main] 4080
+14:35:09  INFO (ApplicationTests:83) [main] 4081
+14:35:09  INFO (ApplicationTests:83) [main] 9297
+14:35:09  INFO (ApplicationTests:83) [main] 1752
+14:35:09  INFO (ApplicationTests:83) [main] 5433
+14:35:09  INFO (ApplicationTests:83) [main] 6095
+14:35:09  INFO (ApplicationTests:83) [main] 1839
+14:35:09  INFO (ApplicationTests:83) [main] 5289
+14:35:09  INFO (ApplicationTests:83) [main] 5342
+14:35:09  INFO (ApplicationTests:83) [main] 3628
+14:35:09  INFO (ApplicationTests:83) [main] 7027
+14:35:09  INFO (ApplicationTests:83) [main] 8193
+14:35:09  INFO (ApplicationTests:83) [main] 6619
+14:35:09  INFO (ApplicationTests:83) [main] 5912
+14:35:09  INFO (ApplicationTests:83) [main] 4364
+14:35:09  INFO (ApplicationTests:83) [main] 7028
+14:35:09  INFO (ApplicationTests:83) [main] 4497
+14:35:09  INFO (ApplicationTests:83) [main] 32
+14:35:09  INFO (ApplicationTests:83) [main] 5847
+14:35:09  INFO (ApplicationTests:83) [main] 2897
+14:35:09  INFO (ApplicationTests:83) [main] 7775
+14:35:09  INFO (ApplicationTests:83) [main] 5564
+14:35:09  INFO (ApplicationTests:83) [main] 1345
+14:35:09  INFO (ApplicationTests:83) [main] 1508
+14:35:09  INFO (ApplicationTests:83) [main] 7769
+14:35:09  INFO (ApplicationTests:83) [main] 5457
+14:35:09  INFO (ApplicationTests:83) [main] 247
+14:35:09  INFO (ApplicationTests:83) [main] 6037
+14:35:09  INFO (ApplicationTests:83) [main] 2283
+14:35:09  INFO (ApplicationTests:83) [main] 4083
+14:35:09  INFO (ApplicationTests:83) [main] 9129
+14:35:09  INFO (ApplicationTests:83) [main] 1153
+14:35:09  INFO (ApplicationTests:83) [main] 5847
+14:35:09  INFO (ApplicationTests:83) [main] 7275
+14:35:09  INFO (ApplicationTests:83) [main] 2413
+14:35:09  INFO (ApplicationTests:83) [main] 5314
+14:35:09  INFO (ApplicationTests:83) [main] 9242
+14:35:09  INFO (ApplicationTests:83) [main] 3489
+14:35:09  INFO (ApplicationTests:83) [main] 3231
+14:35:09  INFO (ApplicationTests:83) [main] 6942
+14:35:09  INFO (ApplicationTests:83) [main] 8316
+14:35:09  INFO (ApplicationTests:83) [main] 1319
+14:35:09  INFO (ApplicationTests:83) [main] 6358
+14:35:09  INFO (ApplicationTests:83) [main] 7017
+14:35:09  INFO (ApplicationTests:83) [main] 7174
+14:35:09  INFO (ApplicationTests:83) [main] 4129
+14:35:09  INFO (ApplicationTests:83) [main] 1874
+14:35:09  INFO (ApplicationTests:83) [main] 3432
+14:35:09  INFO (ApplicationTests:83) [main] 9534
+14:35:09  INFO (ApplicationTests:83) [main] 5524
+14:35:09  INFO (ApplicationTests:83) [main] 3890
+14:35:09  INFO (ApplicationTests:83) [main] 7811
+14:35:09  INFO (ApplicationTests:83) [main] 5646
+14:35:09  INFO (ApplicationTests:83) [main] 4426
+14:35:09  INFO (ApplicationTests:83) [main] 5922
+14:35:09  INFO (ApplicationTests:83) [main] 4518
+14:35:09  INFO (ApplicationTests:83) [main] 9747
+14:35:09  INFO (ApplicationTests:83) [main] 207
+14:35:09  INFO (ApplicationTests:83) [main] 8049
+14:35:09  INFO (ApplicationTests:83) [main] 2661
+14:35:09  INFO (ApplicationTests:83) [main] 4481
+14:35:09  INFO (ApplicationTests:83) [main] 1676
+14:35:09  INFO (ApplicationTests:83) [main] 9760
+14:35:09  INFO (ApplicationTests:83) [main] 7977
+14:35:09  INFO (ApplicationTests:83) [main] 7364
+14:35:09  INFO (ApplicationTests:83) [main] 9021
+14:35:09  INFO (ApplicationTests:83) [main] 8502
+14:35:09  INFO (ApplicationTests:83) [main] 2523
+14:35:09  INFO (ApplicationTests:83) [main] 2801
+14:35:09  INFO (ApplicationTests:83) [main] 7617
+14:35:09  INFO (ApplicationTests:83) [main] 4225
+14:35:09  INFO (ApplicationTests:83) [main] 5307
+14:35:09  INFO (ApplicationTests:83) [main] 395
+14:35:09  INFO (ApplicationTests:83) [main] 7646
+14:35:09  INFO (ApplicationTests:83) [main] 4296
+14:35:09  INFO (ApplicationTests:83) [main] 6941
+14:35:09  INFO (ApplicationTests:83) [main] 8641
+14:35:09  INFO (ApplicationTests:83) [main] 5246
+14:35:09  INFO (ApplicationTests:83) [main] 3787
+14:35:09  INFO (ApplicationTests:83) [main] 9025
+14:35:09  INFO (ApplicationTests:83) [main] 3636
+14:35:09  INFO (ApplicationTests:83) [main] 4538
+14:35:09  INFO (ApplicationTests:83) [main] 2556
+14:35:09  INFO (ApplicationTests:83) [main] 7134
+14:35:09  INFO (ApplicationTests:83) [main] 6439
+14:35:09  INFO (ApplicationTests:83) [main] 3393
+14:35:09  INFO (ApplicationTests:83) [main] 9334
+14:35:09  INFO (ApplicationTests:83) [main] 5675
+14:35:09  INFO (ApplicationTests:83) [main] 1983
+14:35:09  INFO (ApplicationTests:83) [main] 645
+14:35:09  INFO (ApplicationTests:83) [main] 267
+14:35:09  INFO (ApplicationTests:83) [main] 1706
+14:35:09  INFO (ApplicationTests:83) [main] 6266
+14:35:09  INFO (ApplicationTests:83) [main] 9554
+14:35:09  INFO (ApplicationTests:83) [main] 1885
+14:35:09  INFO (ApplicationTests:83) [main] 4448
+14:35:09  INFO (ApplicationTests:83) [main] 6476
+14:35:09  INFO (ApplicationTests:83) [main] 9836
+14:35:09  INFO (ApplicationTests:83) [main] 6898
+14:35:09  INFO (ApplicationTests:83) [main] 3461
+14:35:09  INFO (ApplicationTests:83) [main] 1812
+14:35:09  INFO (ApplicationTests:83) [main] 7572
+14:35:09  INFO (ApplicationTests:83) [main] 3322
+14:35:09  INFO (ApplicationTests:83) [main] 8581
+14:35:09  INFO (ApplicationTests:83) [main] 6573
+14:35:09  INFO (ApplicationTests:83) [main] 1382
+14:35:09  INFO (ApplicationTests:83) [main] 524
+14:35:09  INFO (ApplicationTests:83) [main] 9152
+14:35:09  INFO (ApplicationTests:83) [main] 8368
+14:35:09  INFO (ApplicationTests:83) [main] 2082
+14:35:09  INFO (ApplicationTests:83) [main] 1020
+14:35:09  INFO (ApplicationTests:83) [main] 9716
+14:35:09  INFO (ApplicationTests:83) [main] 6151
+14:35:09  INFO (ApplicationTests:83) [main] 6613
+14:35:09  INFO (ApplicationTests:83) [main] 3786
+14:35:09  INFO (ApplicationTests:83) [main] 9845
+14:35:09  INFO (ApplicationTests:83) [main] 5948
+14:35:09  INFO (ApplicationTests:83) [main] 980
+14:35:09  INFO (ApplicationTests:83) [main] 4164
+14:35:09  INFO (ApplicationTests:83) [main] 3559
+14:35:09  INFO (ApplicationTests:83) [main] 3520
+14:35:09  INFO (ApplicationTests:83) [main] 5237
+14:35:09  INFO (ApplicationTests:83) [main] 5627
+14:35:09  INFO (ApplicationTests:83) [main] 8008
+14:35:09  INFO (ApplicationTests:83) [main] 5144
+14:35:09  INFO (ApplicationTests:83) [main] 4505
+14:35:09  INFO (ApplicationTests:83) [main] 1154
+14:35:09  INFO (ApplicationTests:83) [main] 5276
+14:35:09  INFO (ApplicationTests:83) [main] 258
+14:35:09  INFO (ApplicationTests:83) [main] 1098
+14:35:09  INFO (ApplicationTests:83) [main] 1043
+14:35:09  INFO (ApplicationTests:83) [main] 7397
+14:35:09  INFO (ApplicationTests:83) [main] 2677
+14:35:09  INFO (ApplicationTests:83) [main] 8733
+14:35:09  INFO (ApplicationTests:83) [main] 2397
+14:35:09  INFO (ApplicationTests:83) [main] 1151
+14:35:09  INFO (ApplicationTests:83) [main] 4102
+14:35:09  INFO (ApplicationTests:83) [main] 915
+14:35:09  INFO (ApplicationTests:83) [main] 168
+14:35:09  INFO (ApplicationTests:83) [main] 3270
+14:35:09  INFO (ApplicationTests:83) [main] 647
+14:35:09  INFO (ApplicationTests:83) [main] 4402
+14:35:09  INFO (ApplicationTests:83) [main] 3688
+14:35:09  INFO (ApplicationTests:83) [main] 885
+14:35:09  INFO (ApplicationTests:83) [main] 9818
+14:35:09  INFO (ApplicationTests:83) [main] 2331
+14:35:09  INFO (ApplicationTests:83) [main] 5535
+14:35:09  INFO (ApplicationTests:83) [main] 188
+14:35:09  INFO (ApplicationTests:83) [main] 2515
+14:35:09  INFO (ApplicationTests:83) [main] 664
+14:35:09  INFO (ApplicationTests:83) [main] 4813
+14:35:09  INFO (ApplicationTests:83) [main] 2365
+14:35:09  INFO (ApplicationTests:83) [main] 7339
+14:35:09  INFO (ApplicationTests:83) [main] 5540
+14:35:09  INFO (ApplicationTests:83) [main] 8755
+14:35:09  INFO (ApplicationTests:83) [main] 6227
+14:35:09  INFO (ApplicationTests:83) [main] 4897
+14:35:09  INFO (ApplicationTests:83) [main] 3350
+14:35:09  INFO (ApplicationTests:83) [main] 9862
+14:35:09  INFO (ApplicationTests:83) [main] 4511
+14:35:09  INFO (ApplicationTests:83) [main] 1883
+14:35:09  INFO (ApplicationTests:83) [main] 6923
+14:35:09  INFO (ApplicationTests:83) [main] 8446
+14:35:09  INFO (ApplicationTests:83) [main] 7712
+14:35:09  INFO (ApplicationTests:83) [main] 2058
+14:35:09  INFO (ApplicationTests:83) [main] 7488
+14:35:09  INFO (ApplicationTests:83) [main] 1390
+14:35:09  INFO (ApplicationTests:83) [main] 9230
+14:35:09  INFO (ApplicationTests:83) [main] 6875
+14:35:09  INFO (ApplicationTests:83) [main] 7913
+14:35:09  INFO (ApplicationTests:83) [main] 3310
+14:35:09  INFO (ApplicationTests:83) [main] 8196
+14:35:09  INFO (ApplicationTests:83) [main] 3658
+14:35:09  INFO (ApplicationTests:83) [main] 9489
+14:35:09  INFO (ApplicationTests:83) [main] 6291
+14:35:09  INFO (ApplicationTests:83) [main] 88
+14:35:09  INFO (ApplicationTests:83) [main] 5217
+14:35:09  INFO (ApplicationTests:83) [main] 4974
+14:35:09  INFO (ApplicationTests:83) [main] 2561
+14:35:09  INFO (ApplicationTests:83) [main] 7783
+14:35:09  INFO (ApplicationTests:83) [main] 4095
+14:35:09  INFO (ApplicationTests:83) [main] 2512
+14:35:09  INFO (ApplicationTests:83) [main] 4695
+14:35:09  INFO (ApplicationTests:83) [main] 2386
+14:35:09  INFO (ApplicationTests:83) [main] 6467
+14:35:09  INFO (ApplicationTests:83) [main] 2886
+14:35:09  INFO (ApplicationTests:83) [main] 8264
+14:35:09  INFO (ApplicationTests:83) [main] 991
+14:35:09  INFO (ApplicationTests:83) [main] 3239
+14:35:09  INFO (ApplicationTests:83) [main] 8124
+14:35:09  INFO (ApplicationTests:83) [main] 5866
+14:35:09  INFO (ApplicationTests:83) [main] 2750
+14:35:09  INFO (ApplicationTests:83) [main] 1882
+14:35:09  INFO (ApplicationTests:83) [main] 3845
+14:35:09  INFO (ApplicationTests:83) [main] 1271
+14:35:09  INFO (ApplicationTests:83) [main] 9
+14:35:09  INFO (ApplicationTests:83) [main] 9494
+14:35:09  INFO (ApplicationTests:83) [main] 6930
+14:35:09  INFO (ApplicationTests:83) [main] 1553
+14:35:09  INFO (ApplicationTests:83) [main] 4406
+14:35:09  INFO (ApplicationTests:83) [main] 9792
+14:35:09  INFO (ApplicationTests:83) [main] 2556
+14:35:09  INFO (ApplicationTests:83) [main] 8851
+14:35:09  INFO (ApplicationTests:83) [main] 5996
+14:35:09  INFO (ApplicationTests:83) [main] 6957
+14:35:09  INFO (ApplicationTests:83) [main] 7331
+14:35:09  INFO (ApplicationTests:83) [main] 3954
+14:35:09  INFO (ApplicationTests:83) [main] 9552
+14:35:09  INFO (ApplicationTests:83) [main] 7953
+14:35:09  INFO (ApplicationTests:83) [main] 99
+14:35:09  INFO (ApplicationTests:83) [main] 6866
+14:35:09  INFO (ApplicationTests:83) [main] 9947
+14:35:09  INFO (ApplicationTests:83) [main] 131
+14:35:09  INFO (ApplicationTests:83) [main] 6704
+14:35:09  INFO (ApplicationTests:83) [main] 2629
+14:35:09  INFO (ApplicationTests:83) [main] 6745
+14:41:48  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:41:48  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:41:48  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:41:49  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 16724 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:41:49  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:41:51  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:41:51  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:41:51  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:41:51  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:41:51  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:41:51  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ef2f9ed4ec7a67110ce6', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:786}] to 192.168.249.48:27017
+14:41:51  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ef2f9ed4ec7a67110ce6', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8162700}
+14:41:51  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:41:51  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:41:52  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:41:52  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.261 seconds (JVM running for 4.203)
+14:41:52  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:41:56  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:41:56  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:41:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:41:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:41:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:41:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:42:00  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:42:00  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:42:00  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:42:00  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:42:01  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:43:25  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+14:43:25  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+14:43:25  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+14:43:26  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 1520 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+14:43:26  INFO (SpringApplication:655) [main] The following profiles are active: dev
+14:43:28  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+14:43:28  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+14:43:28  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+14:43:28  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+14:43:28  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:43:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ef908fce23496199e056', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:793}] to 192.168.249.48:27017
+14:43:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f87ef908fce23496199e056', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2978500}
+14:43:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:43:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+14:43:28  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+14:43:28  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.173 seconds (JVM running for 4.06)
+14:43:28  INFO (OnvifApplication:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+14:43:43  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:43:43  INFO (DeviceDiscovery:259) [http-nio-8003-exec-1] current address is /192.168.14.211
+14:43:43  INFO (DeviceDiscovery$UdpRecvThread:206) [T/192.168.14.211@usi2ylem] T/192.168.14.211@usi2ylem started
+14:43:44  INFO (DeviceDiscovery$UdpRecvThread:235) [T/192.168.14.211@usi2ylem] This recv thread is finished!!
+14:43:44  INFO (DeviceDiscovery$2:313) [pool-3-thread-1] close serverSocket
+14:43:44  INFO (DeviceDiscovery:324) [http-nio-8003-exec-1] close executorService
+14:43:44  INFO (DeviceDiscovery:329) [http-nio-8003-exec-1] ******Found Addr List**********
+http://192.168.14.188:2000/onvif/device_service
+http://192.168.14.128:2000/onvif/device_service
+http://192.168.14.135:2000/onvif/device_service
+http://192.168.14.212:2000/onvif/device_service
+http://192.168.14.232/onvif/device_service
+http://[fe80::c256:e3ff:fe70:dd88]/onvif/device_service
+14:44:11  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:44:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:44:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:44:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:44:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:44:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:44:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:44:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:44:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:44:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:44:16  INFO (SLF4JLogger:71) [http-nio-8003-exec-3] Opened connection [connectionId{localValue:2, serverValue:794}] to 192.168.249.48:27017
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:02  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:21  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:21  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:26  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:46  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:46  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:47  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+14:45:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+14:45:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+14:45:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+14:45:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+14:45:59  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-7] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType

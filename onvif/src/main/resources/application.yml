@@ -1,0 +1,27 @@
+server:
+    port: 8003
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
+
+platform:
+    host: http://192.168.14.211:8004
+    path: /platform/catchNewProxyAddress/
+
+
+spring:
+    profiles:
+        active: ${spring.active}
+    mvc:
+        static-path-pattern: /static/**
+    resources:
+        static-locations: classpath:/static/
+    data:
+        mongodb:
+            database: video_db
+            host: 192.168.249.48
+            port: 27017
+            username: tt@king
+            password: xinrui.123
+            authentication-database: admin
+
+

@@ -1,0 +1,5 @@
+video:
+    fileUploadPath: /home/lau/_data/webfiles/face_files
+    httpPrefix: http://192.168.10.73/face_files
+    tcpServer: 192.168.249.48
+    tcpPort:  9000

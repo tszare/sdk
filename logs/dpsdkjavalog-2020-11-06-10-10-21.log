@@ -1,0 +1,152 @@
+[1106 10:10:21.589][DPSDK_Core.cpp:394] TID 10972 [INFO] DPSDK_Login(): [DPSDK]IP=192.168.2.64 port=9000 name=test password=test123456 iType=1
+[1106 10:10:21.590][DPSDK_Core.cpp:406] TID 10972 [INFO] DPSDK_Login(): nPDLLHandle = 1, IP = 192.168.2.64, Port = 9000, name = test, password = test123456,nProtocol = 2, iType = 1, szCheckBit = 
+[1106 10:10:21.590][CMSClientMdl_for_general.cpp:199] TID 18648 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1106 10:10:21.590][ServerSession.cpp:87] TID 18648 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 192.168.2.64, port = 9000
+[1106 10:10:21.591][CMSClientMdl_for_general.cpp:257] TID 18648 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1106 10:10:21.599][CMSClientMdl.cpp:1105] TID 18648 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[443] at operation[41]
+[1106 10:10:21.599][CMSClientMdl_for_general.cpp:264] TID 18648 [INFO] DPSdk::CMSClientMdl::HandleLoginWithEncryption(): CMSClientMdl::HandleLoginWithEncryption()
+[1106 10:10:21.609][CMSClientMdl_for_general.cpp:349] TID 18648 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse()  m_loginSeq=3
+[1106 10:10:21.609][CMSClientMdl_for_general.cpp:440] TID 18648 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse(), m_timerHeartBeat->SetTimer, id = 2 , ms = 15000
+[1106 10:10:21.609][CMSClientMdl_for_general.cpp:461] TID 18648 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse(), m_timerHeartBeatResp->SetTimer, id = 1 , ms = 60s
+[1106 10:10:21.609][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[6] m_sequence[1]
+[1106 10:10:21.609][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[6] pInfo->m_nSeq[1]
+[1106 10:10:21.610][CMSClientMdl_for_general.cpp:607] TID 18648 [DEBUG] DPSdk::CMSClientMdl::HandleGetGroup(): CMSClientMdl::HandleGetGroup: bReload = 0 ,m_bSaveGroupFile = false
+[1106 10:10:21.610][CMSClientMdl_for_general.cpp:721] TID 18648 [INFO] DPSdk::CMSClientMdl::GetGroupInfo(): 0---send get org cmd to CMS! = [1604628621]
+[1106 10:10:21.611][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 11315
+[1106 10:10:21.611][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[71] m_sequence[0]
+[1106 10:10:21.611][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 400
+[1106 10:10:21.611][CMSClientMdl_for_func.cpp:593] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): [PSDK] OnMessageRequest CU_USER_LOGIN nUserId[2] nState[1] cmd[26]
+[1106 10:10:21.611][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[26] m_sequence[0]
+[1106 10:10:21.611][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 78
+[1106 10:10:21.617][CMSClientMdl.cpp:1063] TID 18648 [INFO] DPSdk::CMSClientMdl::onError(): [DPSDK] engineId:0, connId:0, error:3
+[1106 10:10:21.617][CMSClientMdl.cpp:1063] TID 18648 [INFO] DPSdk::CMSClientMdl::onError(): [DPSDK] engineId:0, connId:0, error:3
+[1106 10:10:21.617][CMSClientMdl_for_general.cpp:1165] TID 18648 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 1---orgXml start = [1604628621]
+[1106 10:10:21.617][DPSDKXmlParse.cpp:693] TID 18648 [INFO] DPSdk::GetAllOrgInfo(): 
+[1106 10:10:21.617][CMSClientMdl_for_general.cpp:1173] TID 18648 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 2---orgXml end = [1604628621]
+[1106 10:10:21.632][CMSClientMdl_for_general.cpp:1325] TID 18648 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 3---DevXml start = [1604628621]
+[1106 10:10:21.633][CMSClientMdl_for_general.cpp:1332] TID 18648 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 4---DevXml end = [1604628621]
+[1106 10:10:21.634][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3102] m_sequence[4]
+[1106 10:10:21.634][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[3102] pInfo->m_nSeq[4]
+[1106 10:10:21.646][CMSClientMdl_for_func.cpp:110] TID 18648 [INFO] DPSdk::CMSClientMdl::OnGetServerListResponse(): UNIT_MGW mgwIP = [192.168.2.64] mgwPort = [9090]
+[1106 10:10:21.647][CMSClientMdl.cpp:1105] TID 18648 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[570] at operation[156]
+[1106 10:10:21.647][SCSClientMdl.cpp:236] TID 17864 [INFO] DPSdk::SCSClientMdl::DealWithOneResponse(): SCSClientMdl::DealWithOneResponse: CMD[5107]
+[1106 10:10:21.647][SCSClientMdl.cpp:243] TID 17864 [INFO] DPSdk::SCSClientMdl::DealWithOneResponse(): msgRes->serverMap.empty() = 
+[1106 10:10:21.647][CMSClientMdl.cpp:1063] TID 18648 [INFO] DPSdk::CMSClientMdl::onError(): [DPSDK] engineId:0, connId:0, error:3
+[1106 10:10:21.647][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[72] m_sequence[8]
+[1106 10:10:21.647][PDLLDpsdk_fun.cpp:651] TID 19508 [INFO] CPDLLDpsdk::DPSDKCallback(): DPSDK_CMD_GET_RELATIVE_FPT_PATH begin
+[1106 10:10:21.647][PDLLDpsdk_fun.cpp:662] TID 19508 [INFO] CPDLLDpsdk::DPSDKCallback(): DPSDK_CMD_GET_RELATIVE_FPT_PATH end
+[1106 10:10:21.647][PDLLMessageQueue.cpp:5526] TID 23036 [INFO] CPDLLMessageQueue::OnGetFtpPath(): UpdateFtpInfo() begin
+[1106 10:10:21.647][DMSClientSession.cpp:303] TID 16812 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms Server ip list(0)=>192.168.2.64:9200
+[1106 10:10:21.647][DMSClientSession.cpp:303] TID 16812 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms Server ip list(1)=>112.25.210.130:9200
+[1106 10:10:21.700][PCSClientMdl.cpp:374] TID 22652 [INFO] DPSdk::PCSClientMdl::ConnectToPcsServer(): CheckTcpConnect ip[192.168.2.64] port[9001]
+[1106 10:10:21.700][ServerSession.cpp:87] TID 22652 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 1, ip = 192.168.2.64, port = 9001
+[1106 10:10:21.722][PCSClientMdl_for_func.cpp:170] TID 22652 [INFO] DPSdk::PCSClientMdl::OnLoginResponse(): [PSDK] PCSClientMdl::OnLoginResponse(), m_timerHeartBeat->SetTimer, id = 21, ms=7500
+[1106 10:10:21.722][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[701] m_sequence[0]
+[1106 10:10:24.646][ServerSession.cpp:87] TID 17752 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 2, ip = 192.168.2.64, port = 9600
+[1106 10:10:24.646][ADSClientSession.cpp:298] TID 17752 [INFO] DPSdk::ADSClientSession::SendLoginADSPdu(): [PSDK] ADSClientSession::SendLoginADSPdu sequence[18] serverId[11001] ip[192.168.2.64]
+[1106 10:10:24.648][ServerSession.cpp:87] TID 16812 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 3, ip = 192.168.2.64, port = 9200
+[1106 10:10:24.648][ServerSession.cpp:87] TID 20256 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 4, ip = 192.168.2.64, port = 9400
+[1106 10:10:24.648][PDLLMessageQueue.cpp:5528] TID 23036 [INFO] CPDLLMessageQueue::OnGetFtpPath(): UpdateFtpInfo() begin
+[1106 10:10:24.648][DMSClientSession.cpp:316] TID 16812 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms ConnectServer=>192.168.2.64:9200
+[1106 10:10:24.648][DMSClientMdl.cpp:1594] TID 16812 [INFO] DPSdk::DMSClientMdl::StartReconTimer(): [PSDK] DMSClientMdl::StartReconTimer(), m_timerReconnect->SetTimer, id=22
+[1106 10:10:24.674][DMSClientMdl.cpp:1582] TID 16812 [INFO] DPSdk::DMSClientMdl::StartHBTimer(): [PSDK] DMSClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id = 23, ms=15000
+[1106 10:10:24.674][ADSClientMdl.cpp:820] TID 17752 [INFO] DPSdk::ADSClientMdl::OnLoginAdsResponse(): [PSDK] login ads server success.
+[1106 10:10:24.674][ADSClientMdl.cpp:747] TID 17752 [INFO] DPSdk::ADSClientMdl::StartHBTimer(): [PSDK] ADSClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id=24, ms=15000
+[1106 10:10:24.674][ADSClientSession.cpp:1267] TID 17752 [INFO] DPSdk::ADSClientSession::HandleSendEmptyXml(): [PSDK] ADSClientSession::HandleSetAlarmEnable sequence[20] serverId[11001] ip[192.168.2.64]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[458] m_sequence[21]
+[1106 10:10:24.675][MsgCallbackModule.cpp:198] TID 19508 [ERR] DPSdk::MsgCallbackModule::DealWithOneMsg(): [PSDK] UnDefine CallBack
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[22]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[23]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[24]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[25]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[26]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[27]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[28]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[29]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[30]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[31]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[32]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[33]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[34]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[35]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[36]
+[1106 10:10:24.675][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[37]
+[1106 10:10:26.381][ServerMgrMdl.cpp:216] TID 16404 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[211] nSeq = [38]
+[1106 10:10:26.419][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[211] m_sequence[38]
+[1106 10:10:26.419][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[211] pInfo->m_nSeq[38]
+[1106 10:10:26.649][PESClientMdl.cpp:424] TID 20256 [INFO] DPSdk::PESClientMdl::StartReconTimer(): [PSDK] PESClientMdl::StartReconTimer(), m_timerReconnect->SetTimer, id=26, ms=60000
+[1106 10:10:26.652][PESClientMdl.cpp:414] TID 20256 [INFO] DPSdk::PESClientMdl::StartHBTimer(): [PSDK] PESClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id = 27, ms=40000
+[1106 10:10:27.420][ServerMgrMdl.cpp:216] TID 16404 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[211] nSeq = [43]
+[1106 10:10:27.539][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[211] m_sequence[43]
+[1106 10:10:27.539][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[211] pInfo->m_nSeq[43]
+[1106 10:10:30.824][ServerMgrMdl.cpp:216] TID 16404 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[211] nSeq = [46]
+[1106 10:10:30.838][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[211] m_sequence[46]
+[1106 10:10:30.838][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[211] pInfo->m_nSeq[46]
+[1106 10:10:31.839][ServerMgrMdl.cpp:216] TID 16404 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[211] nSeq = [48]
+[1106 10:10:31.969][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[211] m_sequence[48]
+[1106 10:10:31.969][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[211] pInfo->m_nSeq[48]
+[1106 10:10:34.238][ServerMgrMdl.cpp:216] TID 16404 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[211] nSeq = [50]
+[1106 10:10:34.258][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[211] m_sequence[50]
+[1106 10:10:34.258][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[211] pInfo->m_nSeq[50]
+[1106 10:10:35.259][ServerMgrMdl.cpp:216] TID 16404 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[211] nSeq = [52]
+[1106 10:10:35.378][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[211] m_sequence[52]
+[1106 10:10:35.378][PDLLMessageQueue.cpp:524] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[211] pInfo->m_nSeq[52]
+[1106 10:10:35.499][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 6
+[1106 10:10:35.500][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3108] m_sequence[0]
+[1106 10:10:47.357][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[59]
+[1106 10:10:47.357][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[60]
+[1106 10:10:47.358][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 5, strDeviceID = 1000007, nChannel = 0, cameraId = 1000007$1$0$0 alarmID = [{D80E4845-BCF4-194F-93FB-DA3A6A679443}] eventType = [2] time = [1604629185]
+[1106 10:10:47.358][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000007], channelNo[0]
+[1106 10:10:48.211][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[61]
+[1106 10:11:24.649][DMSClientMdl.cpp:1497] TID 16812 [INFO] DPSdk::DMSClientMdl::OnDmsReconnect(): [PSDK] DMSClientMdl::OnDmsReconnect(), m_timerReconnect->KillTimer, id=22
+[1106 10:11:26.649][PESClientMdl.cpp:364] TID 20256 [INFO] DPSdk::PESClientMdl::OnPESReconnect(): [PSDK] PESClientMdl::OnPESReconnect(), m_timerReconnect->kill, id=26
+[1106 10:11:29.507][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 6
+[1106 10:11:29.507][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3108] m_sequence[0]
+[1106 10:11:33.504][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 6
+[1106 10:11:33.504][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3108] m_sequence[0]
+[1106 10:11:41.509][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 6
+[1106 10:11:41.509][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3108] m_sequence[0]
+[1106 10:11:41.838][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[82]
+[1106 10:11:41.838][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[83]
+[1106 10:11:41.838][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 5, strDeviceID = 1000005, nChannel = 0, cameraId = 1000005$1$0$0 alarmID = [{2972292E-0E36-754D-99D9-061E8250988D}] eventType = [2] time = [1604629239]
+[1106 10:11:41.838][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000005], channelNo[0]
+[1106 10:11:42.460][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[84]
+[1106 10:11:43.194][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[85]
+[1106 10:11:43.194][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[86]
+[1106 10:11:43.194][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 5, strDeviceID = 1000008, nChannel = 0, cameraId = 1000008$1$0$0 alarmID = [{C8A9535D-08DE-4B45-B57E-3D93D41F60C0}] eventType = [2] time = [1604629241]
+[1106 10:11:43.194][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000008], channelNo[0]
+[1106 10:11:43.661][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[87]
+[1106 10:11:43.806][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[88]
+[1106 10:11:43.806][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[89]
+[1106 10:11:43.806][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 584, strDeviceID = 1000005, nChannel = 0, cameraId = 1000005$1$0$0 alarmID = [{9DCA53F4-946B-934B-B394-03A161508F5D}] eventType = [1] time = [1604629241]
+[1106 10:11:43.806][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000005], channelNo[0]
+[1106 10:11:54.433][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[94]
+[1106 10:11:54.433][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[95]
+[1106 10:11:54.433][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 5, strDeviceID = 1000006, nChannel = 0, cameraId = 1000006$1$0$0 alarmID = [{B8EDB361-3154-5E4F-BCE5-1E2EEAF54539}] eventType = [2] time = [1604629252]
+[1106 10:11:54.433][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000006], channelNo[0]
+[1106 10:11:54.872][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[98]
+[1106 10:11:55.500][CMSClientMdl_for_func.cpp:216] TID 18648 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 6
+[1106 10:11:55.500][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3108] m_sequence[0]
+[1106 10:11:56.351][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[99]
+[1106 10:11:56.351][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[100]
+[1106 10:11:56.351][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 584, strDeviceID = 1000006, nChannel = 0, cameraId = 1000006$1$0$0 alarmID = [{E47B4D05-492C-494C-8667-54ADA7A66470}] eventType = [1] time = [1604629254]
+[1106 10:11:56.352][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000006], channelNo[0]
+[1106 10:11:59.722][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:11:59.722][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[354],nInclinationH[0]
+[1106 10:11:59.831][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:11:59.831][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[345],nInclinationH[0]
+[1106 10:11:59.932][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:11:59.932][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[335],nInclinationH[0]
+[1106 10:12:00.053][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:12:00.053][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[324],nInclinationH[0]
+[1106 10:12:00.174][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:12:00.174][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[314],nInclinationH[0]
+[1106 10:12:00.294][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:12:00.294][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[310],nInclinationH[0]
+[1106 10:12:00.987][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[253] m_sequence[0]
+[1106 10:12:00.987][PDLLMessageQueue.cpp:5703] TID 23036 [INFO] CPDLLMessageQueue::OnChannelViewInfoReport(): [DPSDK_CORE]OnChannelViewInfoReport():CamearId[1000007$1$0$0],nDistance[127],nAngelH[590],nAzimuthH[309],nInclinationH[0]
+[1106 10:12:26.503][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[111]
+[1106 10:12:26.503][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[112]
+[1106 10:12:26.503][PDLLMessageQueue.cpp:901] TID 23036 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 5, strDeviceID = 1000004, nChannel = 0, cameraId = 1000004$1$0$0 alarmID = [{D56ABD12-ECD4-3345-8506-C977B22E6B75}] eventType = [2] time = [1604629284]
+[1106 10:12:26.503][PDLLMessageQueue.cpp:5537] TID 23036 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1000004], channelNo[0]
+[1106 10:12:27.102][PDLLDpsdk_fun.cpp:597] TID 19508 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[114]

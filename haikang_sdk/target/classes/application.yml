@@ -1,0 +1,28 @@
+server:
+    port: 8002
+root:
+    serverIp: 192.168.14.129:17660
+    appKey: 27824142
+    appSecret: EXYhlLRQgf3yOpZqamcN
+platform:
+    host: http://192.168.14.211:8004
+    path: /platform/catchNewProxyAddress/
+
+
+mybatis:
+    mapper-locations: classpath:mapper/*.xml     
+spring:
+    profiles:
+        active: dev
+    mvc:
+        static-path-pattern: /static/**
+    resources:
+        static-locations: classpath:/static/
+    data:
+        mongodb:
+            database: video_db
+            host: 192.168.249.48
+            port: 27017
+            username: tt@king
+            password: xinrui.123
+            authentication-database: admin

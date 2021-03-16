@@ -1,0 +1,30 @@
+08:36:15  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+08:36:15  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+08:36:15  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+08:36:16  INFO (StartupInfoLogger:55) [main] Starting DahuaApplication on tszar with PID 19064 (C:\Users\tszar\Desktop\bf\sdk_control\dahua_sdk_x64\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+08:36:16  INFO (SpringApplication:655) [main] The following profiles are active: dev
+08:36:18  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+08:36:18  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+08:36:18  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+08:36:19  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+08:36:19  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+08:36:19  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa349035404ca6bef433084', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1613}] to 192.168.249.48:27017
+08:36:19  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa349035404ca6bef433084', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3683300}
+08:36:19  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:36:19  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+08:36:20  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+08:36:20  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+08:36:20  INFO (StartupInfoLogger:61) [main] Started DahuaApplication in 4.253 seconds (JVM running for 5.238)
+08:36:20  INFO (DahuaApplication:52) [main] **************Below Is CmdServer Startup Info**************
+
+
+08:36:20  INFO (CommonThread:138) [main] Thread <<DahuaServer_001>> started
+08:36:20  INFO (DahuaClient:323) [DahuaServer_001] 创建DPSDK, 返回 m_nDLLHandle = 1
+08:36:20  INFO (DahuaClient:340) [DahuaServer_001] 登录成功，nRet = 0
+08:36:20  INFO (DahuaClient:354) [DahuaServer_001] 加载所有组织树成功，nRet = 0， nDepCount = 21761
+08:37:02  INFO (DirectJDKLog:173) [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:37:03  INFO (SLF4JLogger:71) [http-nio-8001-exec-1] Opened connection [connectionId{localValue:2, serverValue:1617}] to 192.168.249.48:27017
+08:37:03  INFO (ControlWeb:63) [http-nio-8001-exec-1] ["daHua160317760071582773","daHua16031776012243848","daHua160317760122941648","daHua160317760123361941","daHua16031776012408306","daHua160317760124590955","daHua160317760125022670","daHua160317760125313547","daHua160317760125898975","daHua160317760126262582","daHua160317760126570965","daHua160317760126925592","daHua160317760127266280","daHua160317760127910831","daHua160317760128338829","daHua160317760128620493"]
+09:06:18  INFO (ControlWeb:63) [http-nio-8001-exec-6] ["daHua160317760071582773","daHua16031776012243848","daHua160317760122941648","daHua160317760123361941","daHua16031776012408306","daHua160317760124590955","daHua160317760125022670","daHua160317760125313547","daHua160317760125898975","daHua160317760126262582","daHua160317760126570965","daHua160317760126925592","daHua160317760127266280","daHua160317760127910831","daHua160317760128338829","daHua160317760128620493"]
+09:21:17  INFO (ControlWeb:63) [http-nio-8001-exec-8] ["daHua160317760071582773","daHua16031776012243848","daHua160317760122941648","daHua160317760123361941","daHua16031776012408306","daHua160317760124590955","daHua160317760125022670","daHua160317760125313547","daHua160317760125898975","daHua160317760126262582","daHua160317760126570965","daHua160317760126925592","daHua160317760127266280","daHua160317760127910831","daHua160317760128338829","daHua160317760128620493"]

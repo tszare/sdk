@@ -1,0 +1,15 @@
+face:
+    fileUploadPath: /home/lucas/_data/webfiles/face_files
+    httpPrefix: http://192.168.10.67/face_files
+http:
+    gsms:
+        datasource:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            password: root
+            url: jdbc:mysql://192.168.10.67:3306/http_gsms?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&&useSSL=true&serverTimezone=GMT%2B8
+            username: root
+jms:
+    broker:
+        password: zhao@user2.67
+        url: tcp://61.177.122.166:61616
+        username: user2    

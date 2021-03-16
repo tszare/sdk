@@ -1,0 +1,127 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>onvif</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  
+   <parent>
+    <groupId>com.newsky</groupId>
+    <artifactId>sdk_control</artifactId>
+    <version>0.2</version>
+  </parent>
+
+
+  <properties>
+    <java.version>1.8</java.version>
+    <cxf.version>3.3.2</cxf.version>
+    <java.release>8</java.release>
+    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-ws-security</artifactId>
+      <version>${cxf.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onvif</groupId>
+      <artifactId>onvif-ws-client</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>regis</groupId>
+      <artifactId>lemon</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+
+
+
+    
+
+
+
+
+
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <dependency>
+      <groupId>regis</groupId>
+      <artifactId>lemon</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+      <dependency>
+          <groupId>org.springframework.data</groupId>
+          <artifactId>spring-data-commons</artifactId>
+      </dependency>
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-mongodb</artifactId>
+    </dependency>
+      <dependency>
+          <groupId>org.mongodb</groupId>
+          <artifactId>mongodb-driver-sync</artifactId>
+      </dependency>
+
+
+  </dependencies>
+
+
+
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+
+
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <properties>
+        <spring.active>dev</spring.active>
+        <CURR_LOG_PATH>${basedir}</CURR_LOG_PATH>
+      </properties>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+    <profile>
+      <id>test</id>
+      <properties>
+        <spring.active>test</spring.active>
+      </properties>
+    </profile>
+    <profile>
+      <id>pro</id>
+      <properties>
+        <spring.active>pro</spring.active>
+      </properties>
+    </profile>
+  </profiles>
+    
+
+
+</project>
+
+
+

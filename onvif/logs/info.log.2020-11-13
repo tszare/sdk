@@ -1,0 +1,556 @@
+09:58:25  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:58:25  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:58:25  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:58:26  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 16184 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:58:26  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:58:27  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+09:58:27  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:58:27  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:58:28  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:58:28  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:58:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fade8440b06280c79d9588a', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2114}] to 192.168.249.48:27017
+09:58:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fade8440b06280c79d9588a', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17887700}
+09:58:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:58:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:58:28  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+09:58:30  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+09:58:30  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 4.573 seconds (JVM running for 5.851)
+09:58:30  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:58:34  INFO (DirectJDKLog:173) [http-nio-8003-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:58:35  INFO (SLF4JLogger:71) [http-nio-8003-exec-5] Opened connection [connectionId{localValue:2, serverValue:2116}] to 192.168.249.48:27017
+09:58:35  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+09:58:37  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+09:58:38  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+09:58:38  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+09:58:39  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+09:58:39  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+09:58:39  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+09:58:40  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+09:58:40  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+09:58:40  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-5] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+09:58:40  INFO (API:446) [http-nio-8003-exec-5] []
+09:58:40  INFO (ControlWeb:378) [http-nio-8003-exec-5] []
+09:59:23  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+09:59:23  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+09:59:24  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-6] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+09:59:56  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:59:56  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:59:56  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:59:57  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 8864 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:59:57  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:59:58  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+09:59:58  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:59:58  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:59:58  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:59:58  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:59:59  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fade89ee328977f5164761d', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2117}] to 192.168.249.48:27017
+09:59:59  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fade89ee328977f5164761d', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3064800}
+09:59:59  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:59:59  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:59:59  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+09:59:59  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+09:59:59  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.067 seconds (JVM running for 4.039)
+09:59:59  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:00:10  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:00:11  INFO (SLF4JLogger:71) [http-nio-8003-exec-2] Opened connection [connectionId{localValue:2, serverValue:2118}] to 192.168.249.48:27017
+10:00:11  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:00:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:00:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:00:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:00:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:00:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:00:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:00:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:00:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+10:00:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+10:06:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+10:06:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-4] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+10:06:08  INFO (API:446) [http-nio-8003-exec-4] [{"otherAttributes":{},"position":{"otherAttributes":{},"pos":{"x":-0.801136,"y":-0.777778},"type":"Custom"},"textString":{"dateFormat":"yyyy-MM-dd","extension":{"any":["<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt:ChannelName xmlns:tt=\"http://www.onvif.org/ver10/schema\">false</tt:ChannelName>"],"otherAttributes":{}},"fontColor":{"color":{"colorspace":"http://www.onvif.org/ver10/colorspace/YCbCr","x":16.0,"y":128.0,"z":128.0},"otherAttributes":{}},"fontSize":32,"otherAttributes":{},"timeFormat":"HH:mm:ss","type":"DateAndTime"},"token":"OsdToken_101","type":"TEXT","videoSourceConfigurationToken":{"otherAttributes":{},"value":"VideoSourceToken"}},{"otherAttributes":{},"position":{"otherAttributes":{},"pos":{"x":-0.801136,"y":0.833333},"type":"Custom"},"textString":{"extension":{"any":["<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt:ChannelName xmlns:tt=\"http://www.onvif.org/ver10/schema\">true</tt:ChannelName>"],"otherAttributes":{}},"fontColor":{"color":{"colorspace":"http://www.onvif.org/ver10/colorspace/YCbCr","x":16.0,"y":128.0,"z":128.0},"otherAttributes":{}},"fontSize":32,"otherAttributes":{},"plainText":"请输入需要显示的OSD文本","type":"Plain"},"token":"OsdToken_100","type":"TEXT","videoSourceConfigurationToken":{"otherAttributes":{},"value":"VideoSourceToken"}}]
+10:06:08  INFO (ControlWeb:378) [http-nio-8003-exec-4] [{"otherAttributes":{},"position":{"otherAttributes":{},"pos":{"x":-0.801136,"y":-0.777778},"type":"Custom"},"textString":{"dateFormat":"yyyy-MM-dd","extension":{"any":["<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt:ChannelName xmlns:tt=\"http://www.onvif.org/ver10/schema\">false</tt:ChannelName>"],"otherAttributes":{}},"fontColor":{"color":{"colorspace":"http://www.onvif.org/ver10/colorspace/YCbCr","x":16.0,"y":128.0,"z":128.0},"otherAttributes":{}},"fontSize":32,"otherAttributes":{},"timeFormat":"HH:mm:ss","type":"DateAndTime"},"token":"OsdToken_101","type":"TEXT","videoSourceConfigurationToken":{"otherAttributes":{},"value":"VideoSourceToken"}},{"otherAttributes":{},"position":{"otherAttributes":{},"pos":{"x":-0.801136,"y":0.833333},"type":"Custom"},"textString":{"extension":{"any":["<?xml version=\"1.0\" encoding=\"UTF-8\"?><tt:ChannelName xmlns:tt=\"http://www.onvif.org/ver10/schema\">true</tt:ChannelName>"],"otherAttributes":{}},"fontColor":{"color":{"colorspace":"http://www.onvif.org/ver10/colorspace/YCbCr","x":16.0,"y":128.0,"z":128.0},"otherAttributes":{}},"fontSize":32,"otherAttributes":{},"plainText":"请输入需要显示的OSD文本","type":"Plain"},"token":"OsdToken_100","type":"TEXT","videoSourceConfigurationToken":{"otherAttributes":{},"value":"VideoSourceToken"}}]
+10:51:24  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:51:24  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:51:24  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:51:25  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 17988 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:51:25  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:51:27  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:51:27  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:51:27  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:51:27  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:51:27  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:51:27  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf4af46d04a68adf6838e', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2119}] to 192.168.249.48:27017
+10:51:27  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf4af46d04a68adf6838e', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3449099}
+10:51:27  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:51:27  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:51:28  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+10:51:28  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+10:51:28  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.364 seconds (JVM running for 4.304)
+10:51:28  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:51:39  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:51:39  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:2120}] to 192.168.249.48:27017
+10:51:40  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:51:42  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:51:42  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:51:43  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:51:43  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:51:43  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:51:43  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:51:44  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:51:44  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+10:51:44  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+10:51:44 ERROR (DirectJDKLog:175) [http-nio-8003-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at de.onvif.api.API.getOSDs(API.java:454)
+	at de.onvif.web.ControlWeb.webGetOSDs(ControlWeb.java:377)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+10:52:05  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:52:05  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:52:05  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:52:06  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 5804 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:52:06  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:52:07  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:52:07  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:52:07  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:52:08  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:52:08  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:52:08  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf4d833ce443068e7ac95', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2121}] to 192.168.249.48:27017
+10:52:08  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf4d833ce443068e7ac95', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3538500}
+10:52:08  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:52:08  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:52:08  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+10:52:08  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+10:52:08  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.418 seconds (JVM running for 5.176)
+10:52:08  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:52:11  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:52:12  INFO (SLF4JLogger:71) [http-nio-8003-exec-2] Opened connection [connectionId{localValue:2, serverValue:2122}] to 192.168.249.48:27017
+10:52:12  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:52:14  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:52:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:52:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:52:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:52:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:52:15  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:52:16  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:52:16  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+10:52:16  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+10:55:51 ERROR (DirectJDKLog:175) [http-nio-8003-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at de.onvif.api.API.getOSDs(API.java:454)
+	at de.onvif.web.ControlWeb.webGetOSDs(ControlWeb.java:377)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+10:55:51  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:2122}] to 192.168.249.48:27017 because the pool has been closed.
+10:55:55  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:55:56  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:55:56  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:55:56  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 12160 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:55:56  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:55:58  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:55:58  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:55:58  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:55:58  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:55:58  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:55:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf5be080a0a2aa51ce1b7', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2123}] to 192.168.249.48:27017
+10:55:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf5be080a0a2aa51ce1b7', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5769300}
+10:55:59  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:55:59  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:55:59  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+10:55:59  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+10:55:59  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.336 seconds (JVM running for 4.724)
+10:55:59  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:56:03  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:56:04  INFO (SLF4JLogger:71) [http-nio-8003-exec-2] Opened connection [connectionId{localValue:2, serverValue:2124}] to 192.168.249.48:27017
+10:56:04  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:56:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:56:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:56:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:56:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:56:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:56:07  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:56:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:56:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+10:56:08  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+10:57:00  INFO (API:465) [http-nio-8003-exec-2] [{"isShowOSD":1,"token":"OsdToken_101"},{"isShowChanName":1,"token":"OsdToken_100"}]
+10:57:00  INFO (ControlWeb:378) [http-nio-8003-exec-2] [{"isShowOSD":1,"token":"OsdToken_101"},{"isShowChanName":1,"token":"OsdToken_100"}]
+10:57:00  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:2124}] to 192.168.249.48:27017 because the pool has been closed.
+10:57:04  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:57:05  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:57:05  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:57:06  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 19444 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:57:06  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:57:07  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:57:07  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:57:07  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:57:07  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:57:08  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:57:08  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf604ffbe8c105ef76590', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2125}] to 192.168.249.48:27017
+10:57:08  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf604ffbe8c105ef76590', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11969600}
+10:57:08  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:57:08  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:57:08  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+10:57:09  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+10:57:09  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.674 seconds (JVM running for 4.909)
+10:57:09  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:57:09  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:57:10  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:2126}] to 192.168.249.48:27017
+10:57:10  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:57:12  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+10:57:12  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+10:57:13  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:03:26  INFO (API:465) [http-nio-8003-exec-1] [{"isShowOSD":1,"token":"OsdToken_101"},{"isShowChanName":1,"token":"OsdToken_100"}]
+11:03:26  INFO (ControlWeb:378) [http-nio-8003-exec-1] [{"isShowOSD":1,"token":"OsdToken_101"},{"isShowChanName":1,"token":"OsdToken_100"}]
+11:03:27  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:2126}] to 192.168.249.48:27017 because the pool has been closed.
+11:03:31  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:03:31  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:03:31  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:03:32  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 8200 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:03:32  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:03:33  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:03:33  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:03:33  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:03:34  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:03:34  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:03:34  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf786a378c830411da13b', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2127}] to 192.168.249.48:27017
+11:03:34  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf786a378c830411da13b', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3209999}
+11:03:34  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:03:34  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:03:34  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+11:03:35  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:03:35  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.504 seconds (JVM running for 4.662)
+11:03:35  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:03:45  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:03:45  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:2128}] to 192.168.249.48:27017
+11:03:46  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:03:48  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:03:48  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:03:49  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:04:04  INFO (API:465) [http-nio-8003-exec-1] [{"isShowOSD":1,"token":"OsdToken_101"},{"isShowChanName":1,"token":"OsdToken_100"}]
+11:04:04  INFO (ControlWeb:378) [http-nio-8003-exec-1] [{"isShowOSD":1,"token":"OsdToken_101"},{"isShowChanName":1,"token":"OsdToken_100"}]
+11:04:04  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:2128}] to 192.168.249.48:27017 because the pool has been closed.
+11:04:07  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:04:07  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:04:07  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:04:08  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 7812 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:04:08  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:04:09  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:04:09  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:04:09  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:04:10  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:04:10  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:04:10  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf7aa4164c31c03f6164b', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2129}] to 192.168.249.48:27017
+11:04:10  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf7aa4164c31c03f6164b', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6182100}
+11:04:10  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:04:10  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:04:10  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+11:04:11  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:04:11  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.383 seconds (JVM running for 4.348)
+11:04:11  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:04:22  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:04:22  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:04:22  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:04:23  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 5008 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:04:23  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:04:24  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:04:24  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:04:24  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:04:24  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:04:25  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:04:25  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf7b92fbcb41226fdffbd', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2130}] to 192.168.249.48:27017
+11:04:25  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadf7b92fbcb41226fdffbd', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4194101}
+11:04:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:04:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:04:25  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+11:04:25  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:04:25  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.409 seconds (JVM running for 4.317)
+11:04:25  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:04:29  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:04:29  INFO (SLF4JLogger:71) [http-nio-8003-exec-2] Opened connection [connectionId{localValue:2, serverValue:2131}] to 192.168.249.48:27017
+11:04:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:04:31  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:04:32  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:04:32  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:04:32  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:04:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:04:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:04:34  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:04:34  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:04:34  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:04:34  INFO (API:465) [http-nio-8003-exec-2] [{"isShowOSD":1,"osdYPos":"-0.777778","osdXPos":"-0.801136","token":"OsdToken_101"},{"channelNameYPos":"0.833333","channelNameXPos":"-0.801136","isShowChanName":1,"token":"OsdToken_100"}]
+11:04:34  INFO (ControlWeb:378) [http-nio-8003-exec-2] [{"isShowOSD":1,"osdYPos":"-0.777778","osdXPos":"-0.801136","token":"OsdToken_101"},{"channelNameYPos":"0.833333","channelNameXPos":"-0.801136","isShowChanName":1,"token":"OsdToken_100"}]
+11:37:19  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:37:19  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:37:19  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:37:20  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 18464 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:37:20  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:37:21  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:37:21  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:37:21  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:37:22  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:37:22  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:37:22  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadff723edb415c1ad52785', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2132}] to 192.168.249.48:27017
+11:37:22  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fadff723edb415c1ad52785', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3264300}
+11:37:22  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:37:22  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:37:22  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+11:37:23  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:37:23  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.327 seconds (JVM running for 4.281)
+11:37:23  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:37:28  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:37:29  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:2133}] to 192.168.249.48:27017
+11:37:29  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:37:31  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:37:31  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:37:32  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:37:32  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:37:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:37:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:37:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:37:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:37:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:37:33  INFO (API:466) [http-nio-8003-exec-1] [{"isShowOSD":1,"osdYPos":-0.777778,"osdXPos":-0.801136,"token":"OsdToken_101"},{"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:37:33  INFO (ControlWeb:378) [http-nio-8003-exec-1] [{"isShowOSD":1,"osdYPos":-0.777778,"osdXPos":-0.801136,"token":"OsdToken_101"},{"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:41:12  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:41:12  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:41:12  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:41:13  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 18124 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:41:13  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:41:14  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:41:14  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:41:14  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:41:14  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:41:15  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:41:15  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fae005bc13f902396fd7bf1', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2134}] to 192.168.249.48:27017
+11:41:15  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fae005bc13f902396fd7bf1', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3790000}
+11:41:15  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:41:15  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:41:15  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+11:41:15  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:41:15  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.188 seconds (JVM running for 4.122)
+11:41:15  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:42:01  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:42:01  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:2135}] to 192.168.249.48:27017
+11:42:01  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:42:03  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:42:03  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:42:04  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:42:04  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:42:05  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:42:05  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:42:05  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:42:05  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:42:05  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:42:05  INFO (API:470) [http-nio-8003-exec-1] [{"isShowOSD":1,"osdYPos":-0.777778,"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"osdXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"},{"isShowOSD":1,"osdYPos":-0.777778,"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"osdXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:42:05  INFO (ControlWeb:378) [http-nio-8003-exec-1] [{"isShowOSD":1,"osdYPos":-0.777778,"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"osdXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"},{"isShowOSD":1,"osdYPos":-0.777778,"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"osdXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:43:28  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:43:28  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:43:28  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:43:29  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 9752 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:43:29  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:43:30  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:43:30  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:43:30  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:43:31  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:43:31  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:43:31  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fae00e312917257bfaaea10', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2136}] to 192.168.249.48:27017
+11:43:31  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fae00e312917257bfaaea10', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4126800}
+11:43:31  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:43:31  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:43:31  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+11:43:32  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:43:32  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.472 seconds (JVM running for 4.58)
+11:43:32  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:43:32  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:43:33  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:2137}] to 192.168.249.48:27017
+11:43:33  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:43:35  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:43:35  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:43:36  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:43:36  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:43:36  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:43:36  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:43:37  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:43:37  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:43:37  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-1] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:43:37  INFO (API:467) [http-nio-8003-exec-1] [{"isShowOSD":1,"osdYPos":-0.777778,"osdXPos":-0.801136,"token":"OsdToken_101"},{"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:43:37  INFO (ControlWeb:378) [http-nio-8003-exec-1] [{"isShowOSD":1,"osdYPos":-0.777778,"osdXPos":-0.801136,"token":"OsdToken_101"},{"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:46:58  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-2] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/device/wsdl}DeviceService from class org.onvif.ver10.device.wsdl.Device
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/media/wsdl}MediaService from class org.onvif.ver10.media.wsdl.Media
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PtzService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/ptz/wsdl}PTZService from class org.onvif.ver20.ptz.wsdl.PTZ
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver20/imaging/wsdl}ImagingPortService from class org.onvif.ver20.imaging.wsdl.ImagingPort
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventService from class org.onvif.ver10.events.wsdl.EventPortType
+11:47:06  INFO (ReflectionServiceFactoryBean:437) [http-nio-8003-exec-3] Creating Service {http://www.onvif.org/ver10/events/wsdl}EventPortTypeService from class org.onvif.ver10.events.wsdl.EventPortType
+11:47:06  INFO (API:467) [http-nio-8003-exec-3] [{"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]
+11:47:06  INFO (ControlWeb:378) [http-nio-8003-exec-3] [{"channelNameYPos":0.833333,"channelNameXPos":-0.801136,"isShowChanName":1,"channelName":"请输入需要显示的OSD文本","token":"OsdToken_100"}]

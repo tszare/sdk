@@ -1,0 +1,55 @@
+18:04:48  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+18:04:49  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+18:04:49  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+18:04:50  INFO (StartupInfoLogger:55) [main] Starting DahuaApplication on tszar with PID 24912 (C:\Users\tszar\Desktop\bf\sdk_control\dahua_sdk_x64\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+18:04:50  INFO (SpringApplication:655) [main] The following profiles are active: dev
+18:04:54  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+18:04:54  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+18:04:54  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+18:04:54  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+18:04:55  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+18:04:55  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fb64346a37aff7651e00f27', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2316}] to 192.168.249.48:27017
+18:04:55  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fb64346a37aff7651e00f27', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2684500}
+18:04:55  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+18:04:55  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+18:04:55  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+18:04:55  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+18:04:55  INFO (StartupInfoLogger:61) [main] Started DahuaApplication in 6.287 seconds (JVM running for 10.117)
+18:04:55  INFO (DahuaApplication:52) [main] **************Below Is CmdServer Startup Info**************
+
+
+18:04:55  INFO (CommonThread:138) [main] Thread <<DahuaServer_001>> started
+18:04:56  INFO (DahuaClient:323) [DahuaServer_001] 创建DPSDK, 返回 m_nDLLHandle = 1
+18:04:56  INFO (DahuaClient:340) [DahuaServer_001] 登录成功，nRet = 0
+18:04:57  INFO (DahuaClient:354) [DahuaServer_001] 加载所有组织树成功，nRet = 0， nDepCount = 21762
+18:05:20  INFO (DirectJDKLog:173) [http-nio-8001-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:05:21  INFO (SLF4JLogger:71) [http-nio-8001-exec-4] Opened connection [connectionId{localValue:2, serverValue:2317}] to 192.168.249.48:27017
+18:06:08  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+18:06:08  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+18:06:08  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+18:06:09  INFO (StartupInfoLogger:55) [main] Starting DahuaApplication on tszar with PID 23688 (C:\Users\tszar\Desktop\bf\sdk_control\dahua_sdk_x64\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+18:06:09  INFO (SpringApplication:655) [main] The following profiles are active: dev
+18:06:10  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+18:06:10  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+18:06:10  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+18:06:10  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+18:06:10  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+18:06:11  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fb64392be218c518d7a24e2', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:2318}] to 192.168.249.48:27017
+18:06:11  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fb64392be218c518d7a24e2', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4141700}
+18:06:11  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+18:06:11  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+18:06:11  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+18:06:11  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+18:06:11  INFO (StartupInfoLogger:61) [main] Started DahuaApplication in 3.295 seconds (JVM running for 4.344)
+18:06:11  INFO (DahuaApplication:52) [main] **************Below Is CmdServer Startup Info**************
+
+
+18:06:11  INFO (CommonThread:138) [main] Thread <<DahuaServer_001>> started
+18:06:12  INFO (DahuaClient:323) [DahuaServer_001] 创建DPSDK, 返回 m_nDLLHandle = 1
+18:06:12  INFO (DahuaClient:340) [DahuaServer_001] 登录成功，nRet = 0
+18:06:12  INFO (DahuaClient:354) [DahuaServer_001] 加载所有组织树成功，nRet = 0， nDepCount = 21762
+18:06:13  INFO (DirectJDKLog:173) [http-nio-8001-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:06:14  INFO (SLF4JLogger:71) [http-nio-8001-exec-2] Opened connection [connectionId{localValue:2, serverValue:2319}] to 192.168.249.48:27017
+18:14:54  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:2319}] to 192.168.249.48:27017 because the pool has been closed.

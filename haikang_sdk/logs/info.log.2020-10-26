@@ -1,0 +1,152 @@
+09:20:55  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:20:55  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:20:55  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:20:56  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 12072 (C:\Users\tszar\Desktop\bf\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:20:56  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:20:58  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8002"]
+09:20:58  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:20:58  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:20:58  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:20:58  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:20:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f96247a1647904e1a026fea', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1270}] to 192.168.249.48:27017
+09:20:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f96247a1647904e1a026fea', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5555300}
+09:20:58  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:20:58  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:20:59  INFO (ServerRoot:29) [main] >>>ArtemisConfig 192.168.14.129:443 27824142 EXYhlLRQgf3yOpZqamcN
+
+
+09:20:59  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8002"]
+09:20:59  INFO (StartupInfoLogger:61) [main] Started Application in 3.364 seconds (JVM running for 4.582)
+09:20:59  INFO (Application:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:23:58  INFO (DirectJDKLog:173) [http-nio-8002-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:23:59  INFO (SLF4JLogger:71) [http-nio-8002-exec-2] Opened connection [connectionId{localValue:2, serverValue:1275}] to 192.168.249.48:27017
+09:24:00  INFO (ArtemisHttpUtil:826) [http-nio-8002-exec-2] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0x00072202","msg":"Invalid Resource.","data":null}
+09:27:22  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:27:22  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:27:22  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:27:22  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 13688 (C:\Users\tszar\Desktop\bf\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:27:22  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:27:24  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8002"]
+09:27:24  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:27:24  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:27:24  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:27:24  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:27:24  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f9625fc38fa0f261545f269', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1276}] to 192.168.249.48:27017
+09:27:24  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f9625fc38fa0f261545f269', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3613600}
+09:27:24  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:27:24  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:27:25  INFO (ServerRoot:29) [main] >>>ArtemisConfig 192.168.14.129:443 27824142 EXYhlLRQgf3yOpZqamcN
+
+
+09:27:25  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8002"]
+09:27:25  INFO (StartupInfoLogger:61) [main] Started Application in 3.083 seconds (JVM running for 3.926)
+09:27:25  INFO (Application:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:27:57  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:27:57  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:27:57  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:27:58  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 11324 (C:\Users\tszar\Desktop\bf\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:27:58  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:28:00  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8002"]
+09:28:00  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:28:00  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:28:00  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:28:00  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:28:00  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f96262075c2856ae512a190', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1277}] to 192.168.249.48:27017
+09:28:00  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f96262075c2856ae512a190', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2725700}
+09:28:00  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:28:00  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:28:01  INFO (ServerRoot:29) [main] >>>ArtemisConfig 192.168.14.129:443 27824142 EXYhlLRQgf3yOpZqamcN
+
+
+09:28:01  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8002"]
+09:28:01  INFO (StartupInfoLogger:61) [main] Started Application in 3.56 seconds (JVM running for 4.393)
+09:28:01  INFO (Application:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:28:13  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:28:13  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:28:13  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:28:14  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 15200 (C:\Users\tszar\Desktop\bf\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:28:14  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:28:15  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8002"]
+09:28:15  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:28:15  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:28:15  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:28:16  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:28:16  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f962630163ef27a596b9afc', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1278}] to 192.168.249.48:27017
+09:28:16  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f962630163ef27a596b9afc', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3260200}
+09:28:16  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:28:16  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:28:16  INFO (ServerRoot:29) [main] >>>ArtemisConfig 192.168.14.129:443 27824142 EXYhlLRQgf3yOpZqamcN
+
+
+09:28:16  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8002"]
+09:28:16  INFO (StartupInfoLogger:61) [main] Started Application in 3.115 seconds (JVM running for 3.918)
+09:28:16  INFO (Application:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:28:20  INFO (DirectJDKLog:173) [http-nio-8002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:28:21  INFO (SLF4JLogger:71) [http-nio-8002-exec-1] Opened connection [connectionId{localValue:2, serverValue:1279}] to 192.168.249.48:27017
+09:28:21  INFO (ArtemisHttpUtil:826) [http-nio-8002-exec-1] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0","msg":"success","data":""}
+09:28:37  INFO (ArtemisHttpUtil:826) [http-nio-8002-exec-3] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0","msg":"success","data":""}
+09:28:53  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:28:53  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:28:53  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:28:54  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 4060 (C:\Users\tszar\Desktop\bf\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:28:54  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:28:56  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8002"]
+09:28:56  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:28:56  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:28:56  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:28:56  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:28:56  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f96265826dda8397d3cd4ee', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1280}] to 192.168.249.48:27017
+09:28:56  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f96265826dda8397d3cd4ee', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6703100}
+09:28:56  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:28:56  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:28:57  INFO (ServerRoot:29) [main] >>>ArtemisConfig 192.168.14.129:443 27824142 EXYhlLRQgf3yOpZqamcN
+
+
+09:28:57  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8002"]
+09:28:57  INFO (StartupInfoLogger:61) [main] Started Application in 3.89 seconds (JVM running for 4.785)
+09:28:57  INFO (Application:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:29:02  INFO (DirectJDKLog:173) [http-nio-8002-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:29:03  INFO (SLF4JLogger:71) [http-nio-8002-exec-2] Opened connection [connectionId{localValue:2, serverValue:1281}] to 192.168.249.48:27017
+09:29:04  INFO (ArtemisHttpUtil:826) [http-nio-8002-exec-2] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0","msg":"success","data":""}
+09:29:09  INFO (ArtemisHttpUtil:826) [http-nio-8002-exec-3] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0x00072003","msg":"The format of Parameter command is not correct.","data":null}
+09:29:25  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:29:26  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:29:26  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:29:27  INFO (StartupInfoLogger:55) [main] Starting Application on tszar with PID 11484 (C:\Users\tszar\Desktop\bf\sdk_control\haikang_sdk\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:29:27  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:29:29  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8002"]
+09:29:29  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:29:29  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:29:29  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:29:29  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:29:29  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f962679dc91fe3d725815e7', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1282}] to 192.168.249.48:27017
+09:29:29  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5f962679dc91fe3d725815e7', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3333300}
+09:29:29  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:29:29  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:29:30  INFO (ServerRoot:29) [main] >>>ArtemisConfig 192.168.14.129:443 27824142 EXYhlLRQgf3yOpZqamcN
+
+
+09:29:30  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8002"]
+09:29:30  INFO (StartupInfoLogger:61) [main] Started Application in 4.473 seconds (JVM running for 5.602)
+09:29:30  INFO (Application:40) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:29:33  INFO (DirectJDKLog:173) [http-nio-8002-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:29:34  INFO (SLF4JLogger:71) [http-nio-8002-exec-4] Opened connection [connectionId{localValue:2, serverValue:1283}] to 192.168.249.48:27017
+09:29:34  INFO (ArtemisHttpUtil:826) [http-nio-8002-exec-4] the Artemis Request is Success,statusCode:200 SuccessMsg:{"code":"0","msg":"success","data":""}

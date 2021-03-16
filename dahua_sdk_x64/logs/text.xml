@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organization>
+	<Department coding="001" name="根节点" modifytime="" sn="" memo="" deptype="1" depsort="0" chargebooth="0" OrgNum="">
+		<Device id="1000003" />
+		<Channel id="1000003$1$0$0" />
+		<Department coding="001001" name="415测试" modifytime="" sn="" memo="" deptype="1" depsort="1" chargebooth="0" OrgNum="">
+			<Device id="1000002" />
+			<Device id="1000009" />
+			<Device id="1000010" />
+			<Device id="1000012" />
+			<Device id="1000014" />
+			<Device id="1000015" />
+			<Device id="1000016" />
+			<Device id="1000017" />
+			<Device id="1000019" />
+			<Channel id="1000002$1$0$0" />
+			<Channel id="1000009$1$0$0" />
+			<Channel id="1000010$1$0$0" />
+			<Channel id="1000012$1$0$0" />
+			<Channel id="1000012$3$0$0" />
+			<Channel id="1000012$3$0$1" />
+			<Channel id="1000012$3$0$2" />
+			<Channel id="1000012$3$0$3" />
+			<Channel id="1000012$3$0$4" />
+			<Channel id="1000012$3$0$5" />
+			<Channel id="1000012$3$0$6" />
+			<Channel id="1000012$4$0$0" />
+			<Channel id="1000012$4$0$1" />
+			<Channel id="1000014$1$0$0" />
+			<Channel id="1000015$1$0$0" />
+			<Channel id="1000016$1$0$0" />
+			<Channel id="1000017$1$0$0" />
+			<Channel id="1000019$1$0$0" />
+		</Department>
+		<Department coding="001002" name="上海崇明农委" modifytime="" sn="" memo="" deptype="1" depsort="2" chargebooth="0" OrgNum="">
+			<Device id="1000004" />
+			<Device id="1000005" />
+			<Device id="1000006" />
+			<Device id="1000007" />
+			<Device id="1000008" />
+			<Channel id="1000004$1$0$0" />
+			<Channel id="1000005$1$0$0" />
+			<Channel id="1000006$1$0$0" />
+			<Channel id="1000007$1$0$0" />
+			<Channel id="1000008$1$0$0" />
+		</Department>
+		<Department coding="001003" name="山东测试" modifytime="" sn="" memo="" deptype="1" depsort="3" chargebooth="0" OrgNum="" />
+		<Department coding="001004" name="观测场农气站" modifytime="" sn="" memo="" deptype="1" depsort="4" chargebooth="0" OrgNum="">
+			<Device id="1000018" />
+			<Channel id="1000018$1$0$0" />
+		</Department>
+	</Department>
+	<Devices>
+		<Device id="1000002" type="2" name="415测试" manufacturer="1" model="" ip="192.168.2.64" port="61002" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="4015" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="192.168.13.111" devicePort="36223" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000002$1$0$0" name="415测试_1" desc="" status="0" channelType="1" channelSN="30003" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="30003" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000003" type="12" name="4G球机" manufacturer="1" model="" ip="192.168.2.64" port="61003" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="1000" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="223.104.254.148" devicePort="26804" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000003$1$0$0" name="4G球机_1" desc="" status="0" channelType="1" channelSN="30005" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="30005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000004" type="12" name="NW001新弘站" manufacturer="1" model="" ip="192.168.2.64" port="61004" user="admin" password="admin" desc="" status="1" logintype="" registDeviceCode="NW001" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="101.84.72.214" devicePort="37369" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000004$1$0$0" name="NW001新弘站" desc="" status="0" channelType="1" channelSN="30007" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="30007" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000005" type="12" name="NW002万禾站" manufacturer="1" model="" ip="192.168.2.64" port="61005" user="admin" password="admin" desc="" status="1" logintype="" registDeviceCode="NW002" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="101.84.154.96" devicePort="38773" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000005$1$0$0" name="NW002万禾站" desc="" status="0" channelType="1" channelSN="40007" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="40007" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000006" type="12" name="NW003北湖站" manufacturer="1" model="" ip="192.168.2.64" port="61006" user="admin" password="admin" desc="" status="1" logintype="" registDeviceCode="NW003" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="101.84.107.100" devicePort="2520" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000006$1$0$0" name="NW003北湖站" desc="" status="0" channelType="1" channelSN="50007" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="50007" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000007" type="12" name="NW004春润站" manufacturer="1" model="" ip="192.168.2.64" port="61007" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="NW004" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="101.84.194.93" devicePort="44067" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000007$1$0$0" name="NW004春润站" desc="" status="0" channelType="1" channelSN="60007" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="60007" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000008" type="12" name="NW005新平站" manufacturer="1" model="" ip="192.168.2.64" port="61008" user="admin" password="admin" desc="" status="1" logintype="" registDeviceCode="NW005" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="101.84.142.250" devicePort="52421" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000008$1$0$0" name="NW005新平站" desc="" status="0" channelType="1" channelSN="70007" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="70007" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000009" type="12" name="4楼测试" manufacturer="1" model="" ip="192.168.2.64" port="61009" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="F4123" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="192.168.14.100" devicePort="55554" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000009$1$0$0" name="4楼测试_1" desc="" status="0" channelType="1" channelSN="70009" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="70009" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000010" type="12" name="3楼测试" manufacturer="1" model="" ip="192.168.2.64" port="61001" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="F3001" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="192.168.13.27" devicePort="42554" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000010$1$0$0" name="3楼测试_1" desc="" status="0" channelType="1" channelSN="90009" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="90009" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000012" type="2" name="DS415" manufacturer="1" model="" ip="192.168.14.199" port="37777" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="192.168.14.199" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000012$1$0$0" name="外面在下冰雹" desc="" status="0" channelType="1" channelSN="110011" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="110011" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+			<UnitNodes index="0" channelnum="7" type="3">
+				<Channel id="1000012$3$0$0" name="1" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+				<Channel id="1000012$3$0$1" name="2" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+				<Channel id="1000012$3$0$2" name="3" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+				<Channel id="1000012$3$0$3" name="4" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+				<Channel id="1000012$3$0$4" name="5" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+				<Channel id="1000012$3$0$5" name="6" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+				<Channel id="1000012$3$0$6" name="7" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="80002" alarmLevel="1" />
+			</UnitNodes>
+			<UnitNodes index="0" channelnum="2" type="4">
+				<Channel id="1000012$4$0$0" name="1" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="0" />
+				<Channel id="1000012$4$0$1" name="2" desc="" status="0" channelType="0" channelSN="" rights="1000000000000000000000000000000000000010010110001111101111" alarmType="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000014" type="12" name="宏电二合一测试" manufacturer="1" model="" ip="192.168.2.64" port="61013" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="T0001" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="117.136.46.75" devicePort="53133" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="2" type="1" zeroChnEncode="0">
+				<Channel id="1000014$1$0$0" name="宏电二合一测试" desc="" status="0" channelType="1" channelSN="120013" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="120013" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000015" type="2" name="山东省局验收" manufacturer="1" model="" ip="192.168.2.64" port="61012" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="SDYS1" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="223.104.254.56" devicePort="43875" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000015$1$0$0" name="山东省局验收" desc="" status="0" channelType="1" channelSN="120015" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="120015" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000016" type="12" name="泰安" manufacturer="1" model="" ip="192.168.2.64" port="61014" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="D4706" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="223.104.254.142" devicePort="51863" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000016$1$0$0" name="泰安_1" desc="" status="0" channelType="1" channelSN="120017" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="120017" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000017" type="2" name="315" manufacturer="1" model="" ip="192.168.2.64" port="61015" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="315" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="36.113.99.221" devicePort="43272" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000017$1$0$0" name="315_1" desc="" status="0" channelType="1" channelSN="140019" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="140019" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000018" type="12" name="观测场摄像机" manufacturer="1" model="" ip="192.168.2.64" port="61016" user="admin" password="admin" desc="" status="2" logintype="" registDeviceCode="GCC01" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="117.132.191.14" devicePort="10754" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="1" type="1" zeroChnEncode="0">
+				<Channel id="1000018$1$0$0" name="观测场摄像机_1" desc="" status="0" channelType="1" channelSN="170019" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="170019" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+		<Device id="1000019" type="2" name="415海康球机" manufacturer="2" model="" ip="192.168.2.64" port="61017" user="admin" password="12345" desc="" status="1" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="" deviceSN="" deviceIp="192.168.14.232" devicePort="8000" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="1000000000000000000000000000000000000010010110001111101111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000019$1$0$0" name="415海康球机_1" desc="" status="0" channelType="1" channelSN="180019" rights="1000000000000000000000000000000000000010010110001111101111" cameraType="2" CtrlId="180019" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" />
+			</UnitNodes>
+		</Device>
+	</Devices>
+</Organization>

@@ -1,0 +1,85 @@
+[1119 18:06:12.052][DPSDK_Core.cpp:394] TID 20992 [INFO] DPSDK_Login(): [DPSDK]IP=192.168.2.64 port=9000 name=test password=test123456 iType=1
+[1119 18:06:12.052][DPSDK_Core.cpp:406] TID 20992 [INFO] DPSDK_Login(): nPDLLHandle = 1, IP = 192.168.2.64, Port = 9000, name = test, password = test123456,nProtocol = 2, iType = 1, szCheckBit = 
+[1119 18:06:12.052][CMSClientMdl_for_general.cpp:199] TID 19860 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1119 18:06:12.052][ServerSession.cpp:87] TID 19860 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 192.168.2.64, port = 9000
+[1119 18:06:12.053][CMSClientMdl_for_general.cpp:257] TID 19860 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1119 18:06:12.065][CMSClientMdl.cpp:1105] TID 19860 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[443] at operation[41]
+[1119 18:06:12.065][CMSClientMdl_for_general.cpp:264] TID 19860 [INFO] DPSdk::CMSClientMdl::HandleLoginWithEncryption(): CMSClientMdl::HandleLoginWithEncryption()
+[1119 18:06:12.076][CMSClientMdl_for_general.cpp:349] TID 19860 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse()  m_loginSeq=3
+[1119 18:06:12.076][CMSClientMdl_for_general.cpp:440] TID 19860 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse(), m_timerHeartBeat->SetTimer, id = 2 , ms = 15000
+[1119 18:06:12.076][CMSClientMdl_for_general.cpp:461] TID 19860 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse(), m_timerHeartBeatResp->SetTimer, id = 1 , ms = 60s
+[1119 18:06:12.076][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[6] m_sequence[1]
+[1119 18:06:12.076][PDLLMessageQueue.cpp:524] TID 21696 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[6] pInfo->m_nSeq[1]
+[1119 18:06:12.077][CMSClientMdl_for_general.cpp:607] TID 19860 [DEBUG] DPSdk::CMSClientMdl::HandleGetGroup(): CMSClientMdl::HandleGetGroup: bReload = 0 ,m_bSaveGroupFile = false
+[1119 18:06:12.077][CMSClientMdl_for_general.cpp:721] TID 19860 [INFO] DPSdk::CMSClientMdl::GetGroupInfo(): 0---send get org cmd to CMS! = [1605780372]
+[1119 18:06:12.077][CMSClientMdl_for_func.cpp:216] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 11315
+[1119 18:06:12.077][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[71] m_sequence[0]
+[1119 18:06:12.078][CMSClientMdl_for_func.cpp:216] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 400
+[1119 18:06:12.078][CMSClientMdl_for_func.cpp:593] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): [PSDK] OnMessageRequest CU_USER_LOGIN nUserId[2] nState[1] cmd[26]
+[1119 18:06:12.078][CMSClientMdl_for_func.cpp:216] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 78
+[1119 18:06:12.078][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[26] m_sequence[0]
+[1119 18:06:12.086][CMSClientMdl.cpp:1063] TID 19860 [INFO] DPSdk::CMSClientMdl::onError(): [DPSDK] engineId:0, connId:0, error:3
+[1119 18:06:12.086][CMSClientMdl_for_general.cpp:1165] TID 19860 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 1---orgXml start = [1605780372]
+[1119 18:06:12.086][DPSDKXmlParse.cpp:693] TID 19860 [INFO] DPSdk::GetAllOrgInfo(): 
+[1119 18:06:12.086][CMSClientMdl_for_general.cpp:1173] TID 19860 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 2---orgXml end = [1605780372]
+[1119 18:06:12.102][CMSClientMdl_for_general.cpp:1325] TID 19860 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 3---DevXml start = [1605780372]
+[1119 18:06:12.103][CMSClientMdl_for_general.cpp:1332] TID 19860 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 4---DevXml end = [1605780372]
+[1119 18:06:12.103][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3102] m_sequence[4]
+[1119 18:06:12.103][PDLLMessageQueue.cpp:524] TID 21696 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[3102] pInfo->m_nSeq[4]
+[1119 18:06:12.115][CMSClientMdl_for_func.cpp:110] TID 19860 [INFO] DPSdk::CMSClientMdl::OnGetServerListResponse(): UNIT_MGW mgwIP = [192.168.2.64] mgwPort = [9090]
+[1119 18:06:12.115][CMSClientMdl.cpp:1105] TID 19860 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[570] at operation[156]
+[1119 18:06:12.115][SCSClientMdl.cpp:236] TID 16048 [INFO] DPSdk::SCSClientMdl::DealWithOneResponse(): SCSClientMdl::DealWithOneResponse: CMD[5107]
+[1119 18:06:12.115][SCSClientMdl.cpp:243] TID 16048 [INFO] DPSdk::SCSClientMdl::DealWithOneResponse(): msgRes->serverMap.empty() = 
+[1119 18:06:12.116][CMSClientMdl.cpp:1063] TID 19860 [INFO] DPSdk::CMSClientMdl::onError(): [DPSDK] engineId:0, connId:0, error:3
+[1119 18:06:12.116][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[72] m_sequence[14]
+[1119 18:06:12.116][PDLLDpsdk_fun.cpp:651] TID 10132 [INFO] CPDLLDpsdk::DPSDKCallback(): DPSDK_CMD_GET_RELATIVE_FPT_PATH begin
+[1119 18:06:12.116][PDLLDpsdk_fun.cpp:662] TID 10132 [INFO] CPDLLDpsdk::DPSDKCallback(): DPSDK_CMD_GET_RELATIVE_FPT_PATH end
+[1119 18:06:12.116][PDLLMessageQueue.cpp:5526] TID 21696 [INFO] CPDLLMessageQueue::OnGetFtpPath(): UpdateFtpInfo() begin
+[1119 18:06:12.116][DMSClientSession.cpp:303] TID 9676 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms Server ip list(0)=>192.168.2.64:9200
+[1119 18:06:12.116][DMSClientSession.cpp:303] TID 9676 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms Server ip list(1)=>112.25.210.130:9200
+[1119 18:06:12.166][PCSClientMdl.cpp:374] TID 9848 [INFO] DPSdk::PCSClientMdl::ConnectToPcsServer(): CheckTcpConnect ip[192.168.2.64] port[9001]
+[1119 18:06:12.177][ServerSession.cpp:87] TID 9848 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 1, ip = 192.168.2.64, port = 9001
+[1119 18:06:12.189][PCSClientMdl_for_func.cpp:170] TID 9848 [INFO] DPSdk::PCSClientMdl::OnLoginResponse(): [PSDK] PCSClientMdl::OnLoginResponse(), m_timerHeartBeat->SetTimer, id = 23, ms=7500
+[1119 18:06:12.189][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[701] m_sequence[0]
+[1119 18:06:15.120][ServerSession.cpp:87] TID 5540 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 2, ip = 192.168.2.64, port = 9600
+[1119 18:06:15.120][PDLLMessageQueue.cpp:5528] TID 21696 [INFO] CPDLLMessageQueue::OnGetFtpPath(): UpdateFtpInfo() begin
+[1119 18:06:15.120][ServerSession.cpp:87] TID 9676 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 3, ip = 192.168.2.64, port = 9200
+[1119 18:06:15.120][ADSClientSession.cpp:298] TID 5540 [INFO] DPSdk::ADSClientSession::SendLoginADSPdu(): [PSDK] ADSClientSession::SendLoginADSPdu sequence[18] serverId[11001] ip[192.168.2.64]
+[1119 18:06:15.120][DMSClientSession.cpp:316] TID 9676 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms ConnectServer=>192.168.2.64:9200
+[1119 18:06:15.120][ServerSession.cpp:87] TID 23504 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 4, ip = 192.168.2.64, port = 9400
+[1119 18:06:15.120][DMSClientMdl.cpp:1594] TID 9676 [INFO] DPSdk::DMSClientMdl::StartReconTimer(): [PSDK] DMSClientMdl::StartReconTimer(), m_timerReconnect->SetTimer, id=24
+[1119 18:06:15.132][DMSClientMdl.cpp:1582] TID 9676 [INFO] DPSdk::DMSClientMdl::StartHBTimer(): [PSDK] DMSClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id = 25, ms=15000
+[1119 18:06:15.133][ADSClientMdl.cpp:820] TID 5540 [INFO] DPSdk::ADSClientMdl::OnLoginAdsResponse(): [PSDK] login ads server success.
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[20]
+[1119 18:06:15.133][ADSClientMdl.cpp:747] TID 5540 [INFO] DPSdk::ADSClientMdl::StartHBTimer(): [PSDK] ADSClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id=26, ms=15000
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[21]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[22]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[23]
+[1119 18:06:15.133][ADSClientSession.cpp:1267] TID 5540 [INFO] DPSdk::ADSClientSession::HandleSendEmptyXml(): [PSDK] ADSClientSession::HandleSetAlarmEnable sequence[27] serverId[11001] ip[192.168.2.64]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[24]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[25]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[26]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[28]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[29]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[30]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[31]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[32]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[33]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[34]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[458] m_sequence[35]
+[1119 18:06:15.133][MsgCallbackModule.cpp:198] TID 10132 [ERR] DPSdk::MsgCallbackModule::DealWithOneMsg(): [PSDK] UnDefine CallBack
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[36]
+[1119 18:06:15.133][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[37]
+[1119 18:06:17.120][PESClientMdl.cpp:424] TID 23504 [INFO] DPSdk::PESClientMdl::StartReconTimer(): [PSDK] PESClientMdl::StartReconTimer(), m_timerReconnect->SetTimer, id=27, ms=60000
+[1119 18:06:17.124][PESClientMdl.cpp:414] TID 23504 [INFO] DPSdk::PESClientMdl::StartHBTimer(): [PSDK] PESClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id = 28, ms=40000
+[1119 18:06:43.280][CMSClientMdl_for_func.cpp:216] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 400
+[1119 18:06:43.280][CMSClientMdl_for_func.cpp:593] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): [PSDK] OnMessageRequest CU_USER_LOGIN nUserId[2] nState[1] cmd[26]
+[1119 18:06:43.280][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[26] m_sequence[0]
+[1119 18:07:15.120][DMSClientMdl.cpp:1497] TID 9676 [INFO] DPSdk::DMSClientMdl::OnDmsReconnect(): [PSDK] DMSClientMdl::OnDmsReconnect(), m_timerReconnect->KillTimer, id=24
+[1119 18:07:17.121][PESClientMdl.cpp:364] TID 23504 [INFO] DPSdk::PESClientMdl::OnPESReconnect(): [PSDK] PESClientMdl::OnPESReconnect(), m_timerReconnect->kill, id=27
+[1119 18:12:22.110][CMSClientMdl_for_func.cpp:216] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 400
+[1119 18:12:22.110][CMSClientMdl_for_func.cpp:593] TID 19860 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): [PSDK] OnMessageRequest CU_USER_LOGIN nUserId[2] nState[1] cmd[26]
+[1119 18:12:22.110][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[26] m_sequence[0]
+[1119 18:14:53.420][ServerMgrMdl.cpp:216] TID 20924 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[237] nSeq = [222]
+[1119 18:14:53.461][PDLLDpsdk_fun.cpp:597] TID 10132 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[237] m_sequence[222]
+[1119 18:14:53.461][PDLLMessageQueue.cpp:524] TID 21696 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[237] pInfo->m_nSeq[222]

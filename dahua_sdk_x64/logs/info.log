@@ -1,0 +1,50 @@
+09:08:34  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:08:34  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:08:34  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:08:35  INFO (StartupInfoLogger:55) [main] Starting DahuaApplication on tszar with PID 10252 (C:\Users\tszar\Desktop\bf\sdk_control\dahua_sdk_x64\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:08:35  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:08:36  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+09:08:36  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:08:36  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:08:36  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:08:36  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:08:37  INFO (SLF4JLogger:71) [cluster-ClusterId{value='604184941784992ef0bb8a85', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:177}] to 192.168.249.48:27017
+09:08:37  INFO (SLF4JLogger:71) [cluster-ClusterId{value='604184941784992ef0bb8a85', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3864300}
+09:08:37  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:08:37  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:08:37  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+09:08:37  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+09:08:37  INFO (StartupInfoLogger:61) [main] Started DahuaApplication in 2.939 seconds (JVM running for 3.721)
+09:08:37  INFO (DahuaApplication:52) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:08:37  INFO (CommonThread:138) [main] Thread <<DahuaServer_001>> started
+09:08:38  INFO (DahuaClient:323) [DahuaServer_001] 创建DPSDK, 返回 m_nDLLHandle = 1
+09:08:38  INFO (DahuaClient:342) [DahuaServer_001] 登录失败，nRet = 1000424
+09:08:38  INFO (DahuaClient:356) [DahuaServer_001] 加载所有组织树失败，nRet = 1011
+09:08:49  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+09:08:50  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+09:08:50  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+09:08:50  INFO (StartupInfoLogger:55) [main] Starting DahuaApplication on tszar with PID 5692 (C:\Users\tszar\Desktop\bf\sdk_control\dahua_sdk_x64\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+09:08:50  INFO (SpringApplication:655) [main] The following profiles are active: dev
+09:08:51  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8001"]
+09:08:51  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+09:08:51  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+09:08:52  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+09:08:52  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+09:08:52  INFO (SLF4JLogger:71) [cluster-ClusterId{value='604184a49799ee332fe2884c', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:178}] to 192.168.249.48:27017
+09:08:52  INFO (SLF4JLogger:71) [cluster-ClusterId{value='604184a49799ee332fe2884c', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4018900}
+09:08:52  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:08:52  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+09:08:52  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/catchNewProxyAddress/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+09:08:52  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8001"]
+09:08:52  INFO (StartupInfoLogger:61) [main] Started DahuaApplication in 2.518 seconds (JVM running for 3.615)
+09:08:52  INFO (DahuaApplication:52) [main] **************Below Is CmdServer Startup Info**************
+
+
+09:08:52  INFO (CommonThread:138) [main] Thread <<DahuaServer_001>> started
+09:08:52  INFO (DahuaClient:323) [DahuaServer_001] 创建DPSDK, 返回 m_nDLLHandle = 1
+09:08:53  INFO (DahuaClient:342) [DahuaServer_001] 登录失败，nRet = 1000424
+09:08:53  INFO (DahuaClient:356) [DahuaServer_001] 加载所有组织树失败，nRet = 1011

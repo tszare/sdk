@@ -1,0 +1,847 @@
+10:14:58  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:14:58  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:14:58  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:14:59  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 13604 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:14:59  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:15:00  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:15:00  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:15:00  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:15:01  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:15:01  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:15:01  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0bd259e33503dd339571b', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1377}] to 192.168.249.48:27017
+10:15:01  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0bd259e33503dd339571b', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5539000}
+10:15:01  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:15:01  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:15:01  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+10:15:02  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+10:15:02  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 4.086 seconds (JVM running for 5.223)
+10:15:02  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:19:21  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:19:22  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:19:22  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:19:23  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 9092 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:19:23  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:19:24  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:19:24  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:19:24  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:19:24  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:19:24  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:19:24  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0be2c3ebed377c256ef68', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1386}] to 192.168.249.48:27017
+10:19:24  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0be2c3ebed377c256ef68', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2951800}
+10:19:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:19:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:19:25  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+10:19:26  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+10:19:26  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.816 seconds (JVM running for 4.81)
+10:19:26  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+10:57:16  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+10:57:17  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+10:57:17  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+10:57:17  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 8848 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+10:57:17  INFO (SpringApplication:655) [main] The following profiles are active: dev
+10:57:19  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+10:57:19  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+10:57:19  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+10:57:19  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+10:57:19  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+10:57:19  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c70fb737c324c6b286c1', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1406}] to 192.168.249.48:27017
+10:57:19  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c70fb737c324c6b286c1', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3263100}
+10:57:19  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:57:19  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+10:57:19  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+11:00:03  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:00:03  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:00:03  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:00:19  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:00:20  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:00:20  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:00:20  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 18820 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:00:20  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:00:22  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:00:22  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:00:22  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:00:22  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:00:22  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:00:22  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c7c69aa5b419cc86f813', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1409}] to 192.168.249.48:27017
+11:00:22  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c7c69aa5b419cc86f813', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2954400}
+11:00:22  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:00:22  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:00:23  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+11:00:23  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+11:00:23  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.518 seconds (JVM running for 4.452)
+11:00:23  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+11:00:54  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:00:54  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:00:54  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:00:55  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 11624 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:00:55  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:00:57  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:00:57  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:00:57  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:00:57  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:00:57  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:00:57  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c7e9e9f25b29e1d99e35', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1412}] to 192.168.249.48:27017
+11:00:57  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c7e9e9f25b29e1d99e35', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3944800}
+11:00:57  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:00:57  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:00:58  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+11:01:00  INFO (DirectJDKLog:173) [main] Stopping service [Tomcat]
+11:01:00 ERROR (SpringApplication:837) [main] Application run failed
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://192.168.14.211:8004/platform/proxyInfo/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:695)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:324)
+	at de.onvif.platform.PlatformAddress.getConnectPlatform(PlatformAddress.java:43)
+	at de.onvif.platform.PlatformAddress.afterSingletonsInstantiated(PlatformAddress.java:52)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:912)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at de.onvif.OnvifApplication.main(OnvifApplication.java:39)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 15 common frames omitted
+11:01:08  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:01:08  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:01:08  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:01:11  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:01:11  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:01:11  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:01:12  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 4952 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:01:12  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:01:25  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:01:26  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:01:26  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:01:26  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 10044 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:01:26  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:01:28  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:01:28  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:01:28  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:01:28  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:01:28  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:01:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c808a01c316d858528c9', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1414}] to 192.168.249.48:27017
+11:01:28  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c808a01c316d858528c9', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3509200}
+11:01:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:01:28  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:01:29  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+11:02:10  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:02:10  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:02:10  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:02:11  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 1840 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:02:11  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:02:41  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+11:02:41  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+11:02:41  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+11:02:42  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 9368 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+11:02:42  INFO (SpringApplication:655) [main] The following profiles are active: dev
+11:02:43  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+11:02:43  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+11:02:43  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+11:02:44  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+11:02:44  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+11:02:44  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c854c5fab62edc49f76d', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1421}] to 192.168.249.48:27017
+11:02:44  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0c854c5fab62edc49f76d', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3454600}
+11:02:44  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:02:44  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+11:02:44  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIP={proxyIP}&proxyPort={proxyPort}
+13:40:37  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+13:40:38  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+13:40:38  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+13:40:38  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 20236 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+13:40:38  INFO (SpringApplication:655) [main] The following profiles are active: dev
+13:40:40  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+13:40:40  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+13:40:40  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+13:40:40  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+13:40:40  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+13:40:40  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0ed5888b32c7cd7615eac', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1445}] to 192.168.249.48:27017
+13:40:40  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa0ed5888b32c7cd7615eac', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2853100}
+13:40:40  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+13:40:40  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+13:40:41  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}
+13:40:42  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+13:40:42  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 4.524 seconds (JVM running for 5.58)
+13:40:42  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:15:47  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:15:47  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:15:47  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:15:48  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 21476 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:15:48  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:15:49  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:15:49  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:15:49  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:15:50  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:15:50  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:15:50  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa111b694f7880bed860c1d', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1461}] to 192.168.249.48:27017
+16:15:50  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa111b694f7880bed860c1d', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2836200}
+16:15:50  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:15:50  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:15:50  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:15:51  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:15:51  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.87 seconds (JVM running for 4.821)
+16:15:51  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:16:29  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:16:29  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:16:29  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:16:30  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 21124 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:16:30  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:16:31  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:16:31  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:16:31  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:16:31  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:16:31  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:16:31  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa111df6048fe1277d82817', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1471}] to 192.168.249.48:27017
+16:16:32  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa111df6048fe1277d82817', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3251700}
+16:16:32  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:16:32  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:16:32  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:16:32  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:16:32  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.137 seconds (JVM running for 4.053)
+16:16:32  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:18:26  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:18:26  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:18:26  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:18:27  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 20760 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:18:27  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:18:28  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:18:28  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:18:28  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:18:28  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:18:29  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:18:29  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa11255f650e200e1f4a31f', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1477}] to 192.168.249.48:27017
+16:18:29  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa11255f650e200e1f4a31f', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4500700}
+16:18:29  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:18:29  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:18:29  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:18:30  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:18:30  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.929 seconds (JVM running for 4.851)
+16:18:30  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:27:45  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:27:45  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:1493}] to 192.168.249.48:27017
+16:27:45 ERROR (RegisUtil:146) [http-nio-8003-exec-1] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:27:45  INFO (ControlWeb:53) [http-nio-8003-exec-1] null
+16:27:45 ERROR (RegisUtil:146) [http-nio-8003-exec-1] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:27:46  WARN (DispatcherServlet:1251) [http-nio-8003-exec-2] No mapping for GET /favicon.ico
+16:29:16  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:29:16  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:29:16  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:29:17  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 20240 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:29:17  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:29:19  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:29:19  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:29:19  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:29:19  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:29:20  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:29:20  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa114e0551a2917e7cf6926', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1495}] to 192.168.249.48:27017
+16:29:20  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa114e0551a2917e7cf6926', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3387900}
+16:29:20  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:29:20  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:29:20  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:29:21  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:29:21  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 4.507 seconds (JVM running for 5.685)
+16:29:21  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:29:23  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:29:24  INFO (SLF4JLogger:71) [http-nio-8003-exec-2] Opened connection [connectionId{localValue:2, serverValue:1497}] to 192.168.249.48:27017
+16:29:48 ERROR (RegisUtil:146) [http-nio-8003-exec-2] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:29:48  INFO (ControlWeb:53) [http-nio-8003-exec-2] null
+16:29:49 ERROR (RegisUtil:146) [http-nio-8003-exec-2] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:30:36  INFO (SLF4JLogger:71) [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:1497}] to 192.168.249.48:27017 because the pool has been closed.
+16:30:38  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:30:38  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:30:38  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:30:39  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 9520 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:30:39  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:30:41  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:30:41  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:30:41  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:30:41  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:30:41  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:30:41  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa11531f73adf2ec5effa05', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1498}] to 192.168.249.48:27017
+16:30:41  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa11531f73adf2ec5effa05', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3268400}
+16:30:41  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:30:41  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:30:42  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:30:42  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:30:42  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.2 seconds (JVM running for 4.341)
+16:30:42  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:30:47  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:30:47  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:1499}] to 192.168.249.48:27017
+16:30:47 ERROR (RegisUtil:146) [http-nio-8003-exec-1] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:30:47  INFO (ControlWeb:53) [http-nio-8003-exec-1] null
+16:30:47 ERROR (RegisUtil:146) [http-nio-8003-exec-1] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:31:20  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:31:20  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:31:20  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:31:21  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 18964 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:31:21  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:31:23  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:31:23  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:31:23  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:31:23  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:31:23  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:31:23  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa1155b2917be27f61df19c', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1500}] to 192.168.249.48:27017
+16:31:23  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa1155b2917be27f61df19c', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10573700}
+16:31:23  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:31:23  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:31:24  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:31:24  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:31:24  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.738 seconds (JVM running for 4.722)
+16:31:24  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:31:24  INFO (DirectJDKLog:173) [http-nio-8003-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:31:25  INFO (SLF4JLogger:71) [http-nio-8003-exec-2] Opened connection [connectionId{localValue:2, serverValue:1501}] to 192.168.249.48:27017
+16:31:25 ERROR (RegisUtil:146) [http-nio-8003-exec-2] fatalError
+java.lang.IllegalStateException: null
+	at com.google.gson.JsonArray.getAsBigDecimal(JsonArray.java:259)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.writeDirectNonContext(Unknown Source)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_JsonArray.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:312)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:687)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:676)
+	at regis.http.client.RegisUtil.toJson(xa:217)
+	at de.onvif.web.ControlWeb.webGetAllDevice(ControlWeb.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:31:25  INFO (ControlWeb:53) [http-nio-8003-exec-2] null
+16:31:55  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:31:55  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:31:55  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:31:56  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 17748 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:31:56  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:31:57  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:31:57  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:31:57  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:31:57  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:31:58  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:31:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa1157e1d23a8082a4c7c27', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1502}] to 192.168.249.48:27017
+16:31:58  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa1157e1d23a8082a4c7c27', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4723300}
+16:31:58  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:31:58  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:31:58  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:31:58  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:31:58  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.181 seconds (JVM running for 4.08)
+16:31:58  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:32:01  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:32:02  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:1503}] to 192.168.249.48:27017
+16:32:02  INFO (ControlWeb:54) [http-nio-8003-exec-1] ["of160274425548099901","of160274430295827552","of160274432626847983","of160274434741139216","of160274435915363938"]
+16:32:22  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:32:23  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:32:23  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:32:23  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 19984 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:32:23  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:32:25  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:32:25  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:32:25  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:32:25  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:32:25  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:32:25  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa115996142636fab288060', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1504}] to 192.168.249.48:27017
+16:32:25  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa115996142636fab288060', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3097000}
+16:32:25  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:32:26  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:32:26  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:32:26  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:32:26  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.304 seconds (JVM running for 4.204)
+16:32:26  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:32:26  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:32:27  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:1505}] to 192.168.249.48:27017
+16:32:27  INFO (ControlWeb:54) [http-nio-8003-exec-1] ["of160274425548099901","of160274430295827552","of160274432626847983","of160274434741139216","of160274435915363938"]
+16:37:14  INFO (MyScript:350) [main] ********Welcome Use This Library (writen by King)**********
+
+16:37:14  INFO (MyScript:61) [main] OS Information [windows 10>>>amd64>>>10.0]
+16:37:14  INFO (MyScript:35) [main] C:\Users\tszar\Desktop\bf\sdk_control
+16:37:15  INFO (StartupInfoLogger:55) [main] Starting OnvifApplication on tszar with PID 19540 (C:\Users\tszar\Desktop\bf\sdk_control\onvif\target\classes started by tszar in C:\Users\tszar\Desktop\bf\sdk_control)
+16:37:15  INFO (SpringApplication:655) [main] The following profiles are active: dev
+16:37:17  INFO (DirectJDKLog:173) [main] Initializing ProtocolHandler ["http-nio-8003"]
+16:37:17  INFO (DirectJDKLog:173) [main] Starting service [Tomcat]
+16:37:17  INFO (DirectJDKLog:173) [main] Starting Servlet engine: [Apache Tomcat/9.0.35]
+16:37:17  INFO (DirectJDKLog:173) [main] Initializing Spring embedded WebApplicationContext
+16:37:17  INFO (SLF4JLogger:71) [main] Cluster created with settings {hosts=[192.168.249.48:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+16:37:17  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa116bde67c7a7bef1bc552', description='null'}-192.168.249.48:27017] Opened connection [connectionId{localValue:1, serverValue:1506}] to 192.168.249.48:27017
+16:37:17  INFO (SLF4JLogger:71) [cluster-ClusterId{value='5fa116bde67c7a7bef1bc552', description='null'}-192.168.249.48:27017] Monitor thread successfully connected to server with description ServerDescription{address=192.168.249.48:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6259000}
+16:37:17  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:37:17  WARN (CustomConversions:263) [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+16:37:18  INFO (PlatformAddress:37) [main] http://192.168.14.211:8004/platform/proxyInfo/?proxyIp={proxyIp}&proxyPort={proxyPort}&category={category}
+16:37:18  INFO (DirectJDKLog:173) [main] Starting ProtocolHandler ["http-nio-8003"]
+16:37:18  INFO (StartupInfoLogger:61) [main] Started OnvifApplication in 3.336 seconds (JVM running for 4.341)
+16:37:18  INFO (OnvifApplication:42) [main] **************Below Is CmdServer Startup Info**************
+
+
+16:39:38  INFO (DirectJDKLog:173) [http-nio-8003-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:39:38  INFO (SLF4JLogger:71) [http-nio-8003-exec-1] Opened connection [connectionId{localValue:2, serverValue:1509}] to 192.168.249.48:27017
+16:39:38  INFO (ControlWeb:54) [http-nio-8003-exec-1] ["of160274425548099901","of160274430295827552","of160274432626847983","of160274434741139216","of160274435915363938"]
+16:39:38  WARN (DispatcherServlet:1251) [http-nio-8003-exec-2] No mapping for GET /favicon.ico
+16:40:00  INFO (ControlWeb:54) [http-nio-8003-exec-3] ["of160274425548099901","of160274430295827552","of160274432626847983","of160274434741139216","of160274435915363938"]
+16:41:45  INFO (ControlWeb:54) [http-nio-8003-exec-6] ["of160274425548099901","of160274430295827552","of160274432626847983","of160274434741139216","of160274435915363938"]

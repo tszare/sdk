@@ -1,0 +1,12 @@
+[0305 09:08:52.999][DPSDK_Core.cpp:394] TID 1360 [INFO] DPSDK_Login(): [DPSDK]IP=192.168.2.64 port=9000 name=test password=test123456 iType=1
+[0305 09:08:52.999][DPSDK_Core.cpp:406] TID 1360 [INFO] DPSDK_Login(): nPDLLHandle = 1, IP = 192.168.2.64, Port = 9000, name = test, password = test123456,nProtocol = 2, iType = 1, szCheckBit = 
+[0305 09:08:52.999][CMSClientMdl_for_general.cpp:199] TID 9016 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[0305 09:08:52.999][ServerSession.cpp:87] TID 9016 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 192.168.2.64, port = 9000
+[0305 09:08:53.000][CMSClientMdl_for_general.cpp:257] TID 9016 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[0305 09:08:53.018][CMSClientMdl.cpp:1105] TID 9016 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[443] at operation[41]
+[0305 09:08:53.018][CMSClientMdl_for_general.cpp:264] TID 9016 [INFO] DPSdk::CMSClientMdl::HandleLoginWithEncryption(): CMSClientMdl::HandleLoginWithEncryption()
+[0305 09:08:53.028][CMSClientMdl.cpp:1105] TID 9016 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[424] at operation[41]
+[0305 09:08:53.028][ServerSession.cpp:370] TID 2596 [INFO] DPSdk::DSDKSocketHandler::OnClose(): DSDKSocketHandler::OnClose() sid = 0, error = 0
+[0305 09:08:53.028][CMSClientMdl.cpp:186] TID 2596 [INFO] DPSdk::CMSClientMdl::DealWithNetClose(): [PSDK] CMSClientMdl::DealWithNetClose() sid = 0, error = 0, m_sid = -1, blogin = false
+[0305 09:08:53.028][PDLLDpsdk_fun.cpp:597] TID 6500 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[6] m_sequence[1]
+[0305 09:08:53.028][PDLLMessageQueue.cpp:524] TID 2420 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[6] pInfo->m_nSeq[1]

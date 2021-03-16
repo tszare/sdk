@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server_form" />
+        <module name="onvif_sdk" />
+        <module name="dahua_sdk_x64" />
+        <module name="haikang_sdk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dahua_sdk_x64" target="1.8" />
+      <module name="haikang_sdk" target="1.8" />
+      <module name="onvif_SDK" target="1.8" />
+      <module name="onvif_sdk" target="1.8" />
+      <module name="sdk_control" target="1.8" />
+      <module name="server_form" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dahua_sdk_x64" options="-parameters" />
+      <module name="haikang_sdk" options="-parameters" />
+      <module name="onvif_SDK" options="-parameters" />
+      <module name="onvif_sdk" options="-parameters" />
+      <module name="server_form" options="-parameters" />
+    </option>
+  </component>
+</project>

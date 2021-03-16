@@ -1,0 +1,18 @@
+16:46:32  INFO (DeviceDiscovery:259) [main] current address is /192.168.14.211
+16:46:32  INFO (DeviceDiscovery$UdpRecvThread:206) [T/192.168.14.211@7qcnefy3] T/192.168.14.211@7qcnefy3 started
+16:46:33  INFO (DeviceDiscovery$UdpRecvThread:235) [T/192.168.14.211@7qcnefy3] This recv thread is finished!!
+16:46:33  INFO (DeviceDiscovery$2:313) [pool-2-thread-1] close serverSocket
+16:46:33  INFO (DeviceDiscovery:324) [main] close executorService
+16:46:33  INFO (DeviceDiscovery:329) [main] ******Found Addr List**********
+http://192.168.14.135:2000/onvif/device_service
+http://192.168.14.128:2000/onvif/device_service
+http://192.168.14.188:2000/onvif/device_service
+http://192.168.14.212:2000/onvif/device_service
+http://192.168.14.232/onvif/device_service
+http://[fe80::c256:e3ff:fe70:dd88]/onvif/device_service
+16:46:33  INFO (DeviceDiscovery:102) [main] wsService Url >>>http://192.168.14.135:2000/onvif/device_service
+16:46:33  INFO (DeviceDiscovery:102) [main] wsService Url >>>http://192.168.14.128:2000/onvif/device_service
+16:46:33  INFO (DeviceDiscovery:102) [main] wsService Url >>>http://192.168.14.188:2000/onvif/device_service
+16:46:33  INFO (DeviceDiscovery:102) [main] wsService Url >>>http://192.168.14.212:2000/onvif/device_service
+16:46:33  INFO (DeviceDiscovery:102) [main] wsService Url >>>http://192.168.14.232/onvif/device_service
+16:46:33  INFO (DeviceDiscovery:102) [main] wsService Url >>>http://[fe80::c256:e3ff:fe70:dd88]/onvif/device_service

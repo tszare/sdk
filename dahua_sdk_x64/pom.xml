@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>sdk_dahua_x64</artifactId>
+  <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+        </dependency>
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-mongodb</artifactId>
+      </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.1</version>
+        </dependency>
+    </dependencies>
+
+    <parent>
+    <groupId>com.newsky</groupId>
+    <artifactId>sdk_control</artifactId>
+    <version>0.2</version>
+  </parent>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <netty.version>4.1.30.Final</netty.version>
+  </properties>
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <resources>
+      <resource>
+	<directory>src/main/resources</directory>
+	<filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+
+
+
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <properties>
+	<spring.active>dev</spring.active>
+	<CURR_LOG_PATH>${basedir}</CURR_LOG_PATH>			
+      </properties>
+      <activation>
+	<activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+    <profile>
+      <id>test</id>
+      <properties>
+	<spring.active>test</spring.active>
+      </properties>
+    </profile>
+    <profile>
+      <id>pro</id>
+      <properties>
+	<spring.active>pro</spring.active>
+      </properties>
+    </profile>
+  </profiles>
+
+</project>
